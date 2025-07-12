@@ -1,0 +1,23 @@
+import React from 'react';
+import NavLink from '../atoms/NavLink';
+import NavDropdown from '../atoms/NavDropDown';
+import { productCategories } from '../../data/productCategories';
+
+export default function NavBar() {
+    return (
+        <nav style={styles.nav}>
+            <NavLink to="/">Home</NavLink>
+            <NavDropdown title="Products" items={productCategories} />
+            <NavLink to="/about">About Us</NavLink>
+            {/* <NavLink to="/contact">Contact</NavLink> */}
+        </nav>
+    );
+}
+
+const styles = {
+    nav: {
+        display: 'flex',
+        gap: '1rem',
+        alignItems: 'center',
+    }
+};
