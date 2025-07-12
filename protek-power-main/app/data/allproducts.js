@@ -71,7 +71,7 @@ export const products = [
     id: 'u3',
     name: 'High‑Frequency Online UPS',
     price: 0,
-    image: '/assets/images/UPS/HighFreqOnlineUps.png',
+    image: '/assets/images/ups/HighFreqOnlineUps.png',
     category: 'UPS Systems',
     slug: 'high-frequency-online-ups',
     description: 'Topology : Off Line UPS, Line Interactive UPS'
@@ -121,39 +121,6 @@ export const products = [
     description: 'CVT with input 180–280 V, output constant, noise & spike elimination, 120% overload for 3 min.'
   },
 
-// Power Saver
-
-  {
-    id: 'p1',
-    name: 'Power Saver Unit',
-    price: 0,
-    image: '',
-    category: 'Power Saver',
-    slug: 'power-saver-unit',
-    description: 'Reduces harmonics & reactive current, saves up to 20%, efficiency 99.5%, 24/7 continuous operation.'
-  },
-
-
-// Power Inverters
-
-  {
-    id: 'i1',
-    name: 'PWM HEXFET Power Inverter',
-    price: 0,
-    image: '',
-    category: 'Power Inverters',
-    slug: 'pwm-hexfet-power-inverter',
-    description: 'PWM HEXFET, quick switchover, protections, audio‑visual LEDs, compact and rugged.'
-  },
-    {
-    id: 'i2',
-    name: 'SINE WAVE HOME UPS',
-    price: 0,
-    image: '',
-    category: 'Power Inverters',
-    slug: 'sinewave-home-ups',
-    description: 'PWM HEXFET, quick switchover, protections, audio‑visual LEDs, compact and rugged.'
-  },
 
 // Battery Chargers
 
@@ -161,32 +128,22 @@ export const products = [
     id: 'b1',
     name: 'SMPS Battery Charger',
     price: 0,
-    image: '',
+    image: '/assets/images/BatteryCharger/BatteryCharger.png',
     category: 'Battery Chargers',
     slug: 'smps-battery-charger',
     description: 'On‑board EMI/RMI filter, PWM compact design, float/smooth charging, >75% efficiency.'
   },
 
 
-// Battery Booster
 
-  {
-    id: 'bb1',
-    name: 'Battery Booster',
-    price: 0,
-    image: '',
-    category: 'Battery Booster',
-    slug: 'battery-booster',
-    description: 'High‑power booster for fast battery charging.'
-  },
 
 // Isolation Transformer
 
   {
     id: 'iso1',
     name: 'Isolation Transformer',
-    price: 0,
-    image: '',
+    price: 5000,
+    image: '/assets/images/IsolationTransformer/IsolationTransformer.png',
     category: 'Isolation Transformer',
     slug: 'isolation-transformer',
     description: 'Galvanic isolation; heavy‑duty industrial grade.'
@@ -214,35 +171,25 @@ export const products = [
     slug: 'wall-mount-regular',
     description: 'Air conditioning, Household Appliance, Office Equipment, Versatile Application'
   },
-    {
-    id: 'ds3',
-    name: 'Omni Power Conditioner',
-    price: 0,
-    image: '/assets/images/DigitalStepStabilizer/OmniPowerConditioner.jpeg',
-    category: 'Digital Step Stabilizer',
-    slug: 'omni-power-conditioner-digital-step-stabilizer',
-    description: 'Automatic High / Low Voltage Cut-off. Overload & Short-circuit protection.'
-  },
+
 
 
 // Digital Controller
 
-
-
   {
     id: 'dc1',
     name: 'Servo Stabilizer Controller',
-    price: 0,
-    image: '',
+    price: 2000,
+    image: '/assets/images/Controller/ServoStabilizerController.png',
     category: 'Digital Controller',
     slug: 'servo-stabilizer-controller',
     description: 'CNC Machine Tool, Textile Machine, Printing Machines'
   },
     {
     id: 'dc2',
-    name: 'Step Stabilizer COntroller',
-    price: 0,
-    image: '',
+    name: 'Step Stabilizer Controller',
+    price: 2000,
+    image: '/assets/images/Controller/StepStabilizerController.png',
     category: 'Digital Controller',
     slug: 'step-stabilizer-controller',
     description: 'CNC Machine Tool, Textile Machines, Printing Machines'

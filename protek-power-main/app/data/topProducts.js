@@ -1,66 +1,73 @@
 export const topProducts = [
-  {
-    id: 1,
-    name: "High-Capacity Power Bank",
-    price: 12999,
-    image: "/assets/images/power-bank.jpeg",
-    category: "Batteries",
-    slug: "high-capacity-power-bank"
+   {
+    id: 's2',
+    name: 'Single Phase Servo Stabilizer 10KVA',
+    price: 10000,
+    image: '/assets/images/ServoVoltageStabilizer/10KVAStabilizerFront.jpeg',
+    category: 'Servo Voltage Stabilizer',
+    slug: 'single-phase-servo-stabilizer-10KVA',
+    description: 'For CNC machines, textile, printing, packaging, medical instruments, A/C, labs, residences.'
+  },
+   {
+    id: 's3',
+    name: 'Three Phase Servo Stabilizer (Air‑cooled) 30KVA+',
+    price: 30000,
+    image: '/assets/images/ServoVoltageStabilizer/30KVAStabilizerFront.jpeg',
+    category: 'Servo Voltage Stabilizer',
+    slug: 'three-phase-servo-stabilizer-30KVA',
+    description: 'CNC Machine Tool, Textile Machines, Printing Machines'
+  },
+   {
+    id: 'u1',
+    name: 'Line Interactive UPS',
+    price: 25000,
+    image: '/assets/images/ups/lineInteractive.jpeg',
+    category: 'UPS Systems',
+    slug: 'line-interactive-ups',
+    description: 'Pulse‑width modulation, input 180–285 V, output 230 V ±6%, backup ~20 min, 12/24/36 V batteries.'
   },
   {
-    id: 2,
-    name: "Pure Sine Wave Inverter",
-    price: 24999,
-    image: "/assets/images/power-bank.jpeg",
-    category: "Inverters",
-    slug: "pure-sine-wave-inverter"
+    id: 'd1',
+    name: 'Digital Voltage Stabilizer',
+    price: 9000,
+    image: '/assets/images/DigitalVoltageStabilizer/DigitalStabilizerFront.jpeg',
+    category: 'Digital Voltage Stabilizer',
+    slug: 'digital-voltage-stabilizer',
+    description: 'Embedded micro‑controller circuits with advanced features.'
   },
   {
-    id: 3,
-    name: "Isolation Transformer",
-    price: 18500,
-    image: "/assets/images/power-bank.jpeg",
-    category: "Transformers",
-    slug: "isolation-transformer"
+    id: 'd2',
+    name: 'Autocut Digital Voltage Stabilizer',
+    price: 12000,
+    image: '/assets/images/DigitalVoltageStabilizer/AutoCut.jpeg',
+    category: 'Digital Voltage Stabilizer',
+    slug: 'autocut-digital-voltage-stabilizer',
+    description: 'Input 100–300 V, set‑point cutoff, digital metering, pre‑buzzer alarm.'
   },
-  {
-    id: 4,
-    name: "Voltage Stabilizer",
-    price: 7999,
-    image: "/assets/images/power-bank.jpeg",
-    category: "Stabilizers",
-    slug: "voltage-stabilizer"
+ {
+    id: 'c1',
+    name: 'Single/Three Phase CVT',
+    price: 10000,
+    image: '/assets/images/cvt/cvt_front.jpeg',
+    category: 'Constant Voltage Transformer',
+    slug: 'constant-voltage-transformer',
+    description: 'CVT with input 180–280 V, output constant, noise & spike elimination, 120% overload for 3 min.'
   },
-  {
-    id: 5,
-    name: "Solar Inverter",
-    price: 32999,
-    image: "/assets/images/power-bank.jpeg",
-    category: "Inverters",
-    slug: "solar-inverter"
-  },
-  {
-    id: 6,
-    name: "Tubular Battery",
-    price: 16500,
-    image: "/assets/images/power-bank.jpeg",
-    category: "Batteries",
-    slug: "tubular-battery"
-  },
+
   {
     id: 7,
-    name: "Step-Down Transformer",
-    price: 14999,
-    image: "/assets/images/power-bank.jpeg",
-    category: "Transformers",
-    slug: "step-down-transformer"
+    name: "Servo Stabilizer Controller",
+    price: 1499,
+    image: "/assets/images/Controller/ServoStabilizerController.png",
+    category: "Controllers",
+    slug: "servo-stabilizer-controller"
   },
   {
     id: 8,
-    name: "Digital UPS System",
-    price: 29999,
-    image: "/assets/images/power-bank.jpeg",
-    category: "UPS Systems",
-    slug: "digital-ups-system"
+    name: "Step Stabilizer Controller",
+    price: 2999,
+    image: "/assets/images/Controller/StepStabilizerController.png",
+    category: "Controllers",
+    slug: "step-stabilizer-controller"
   }
 ];

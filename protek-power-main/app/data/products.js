@@ -903,9 +903,9 @@ export const products = [
   "id": "wmstb1",
   "name": "Wall Mount Premium Stabilizer",
   "price": "",
-  "image": "assets/images/DigitalStepStabilizer/WallMountPremium.png",
+  "image": "/assets/images/DigitalStepStabilizer/WallMountPremium.png",
   "category": "Digital Voltage Stabilizer",
-  "slug": "wall-mount-premium-stabilizer",
+  "slug": "wall-mount-premium",
   "description": "Premium wall-mount digital stabilizer with LCD display, auto-reset, and precise voltage regulation.",
   "fullDescription": "Pro_Tek's Wall Mount Premium Stabilizer is a digitally controlled voltage regulator designed for home and office appliances. Engineered for wall-mounted deployment, it combines advanced voltage sensing, front-panel LCD for real-time voltage feedback, and seamless auto-reset after voltage normalization. The stabilizer offers wide input range compatibility and built-in protections against high/low voltage, overload, and surges. Ideal for refrigerators, air conditioners, LED TVs, and sensitive equipment that demand consistent voltage.",
   "sku": "WMP-STB-PTK",
@@ -916,7 +916,7 @@ export const products = [
   "isOnSale": false,
   "images": [
     {
-      "url": "assets/images/DigitalStepStabilizer/WallMountPremium.png",
+      "url": "/assets/images/DigitalStepStabilizer/WallMountPremium.png",
       "alt": "Wall Mount Premium Stabilizer – Front View"
     }
   ],
@@ -975,7 +975,239 @@ export const products = [
       "verifiedPurchase": true
     }
   ]
+},
+
+//-----------------Battery Charger-------------------------------------------
+//SMPS Battery Charger
+{
+  "id": "bcharg1",
+  "name": "SMPS Battery Charger",
+  "price": "",
+  "image":'/assets/images/BatteryCharger/BatteryCharger.png',
+  "category": "Battery Charger",
+  "slug": "smps-battery-charger",
+  "description": "Compact PWM-based SMPS battery charger with auto cut‑off/float charge and high-efficiency EMI/RFI filtering.",
+  "fullDescription": "Pro_Tek’s SMPS Battery Charger delivers reliable DC power using PWM-controlled switch mode technology and onboard EMI/RFI filtering. Built with industrial-grade components, it provides precise charging via automatic cut-off or float modes and soft-start current limiting. With adjustable output voltages in CCCV charging mode, over 75% efficiency under full load, and open protections for short-circuit, over-voltage, temperature, and optional reverse-battery and relay contacts, this charger is ideal for telecom, industrial, and standby battery systems.",
+  "sku": "SMPS-BC-PTK",
+  "rating": null,
+  "reviewCount": null,
+  "isNew": false,
+  "isBestseller": false,
+  "isOnSale": false,
+  "images": [
+    {
+      "url": '/assets/images/BatteryCharger/BatteryCharger.png',
+      "alt": "SMPS Battery Charger – Front View"
+    }
+  ],
+  "features": [
+    "On-board EMI/RFI filter",
+    "PWM-based compact SMPS design",
+    "Industrial-grade components",
+    "Automatic cut-off and smooth float charging",
+    "Soft-start input surge current limiting",
+    "Adjustable output voltage (model selectable)",
+    "CCCV charging mode",
+    "Efficiency >75% at full load",
+    "Screw or jack-type connectors",
+    "Optional reverse battery protection",
+    "Optional potential-free relay contact"
+  ],
+  "applicationAreas": [
+    "Industrial DC power systems",
+    "Telecom battery backup",
+    "Standby power installations",
+    "Telecom towers and remote sites",
+    "Infrastructure and control panels"
+  ],
+  "specifications": {
+    "Input Voltage": "170–230 VAC (or as required)",
+    "Output Voltage": "Model-dependent (adjustable)",
+    "Regulation": "Line/load ±1%",
+    "Efficiency": ">75% at full load",
+    "Charging Mode": "CCCV (constant current, constant voltage)",
+    "Working Temperature": "0–50 °C, RH <90%",
+    "Ripple/Noise": "<1% pk‑pk",
+    "Isolation Voltage": "1 kV, 50 Hz for 1 min",
+    "Protections": "Short-circuit, over-voltage, over-temperature",
+    "Optional Protections": "Reverse battery, potential-free relay contact"
+  },
+  "warranty": {
+    "period": "2‑Year",
+    "type": "Limited Warranty",
+    "coverage": "Covers PCB and SMPS components; excludes connector damage and misuse."
+  },
+  "reviews": []
+},
+//--------------------------------Controller----------------------------------
+//Servo Stabilizer Controller
+{
+  "id": "srvctrl1",
+  "name": "Servo Stabilizer Controller",
+  "price": "2000",
+  "image": "/assets/images/Controller/ServoStabilizerController.png",
+  "category": "Digital Controller",
+  "slug": "servo-stabilizer-controller",
+  "description": "Microcontroller-based controller for servo voltage stabilizers, offering plug-and-play installation, precision regulation, and smart protection.",
+  "fullDescription": "Pro_Tek’s Servo Stabilizer Controller is an all-in-one microcontroller module designed for high-precision voltage regulation in servo stabilizers. It supports effortless plug-and-play setup with just 5–7 connections, minimal external wiring via a built-in sensing transformer, and a front-panel Auto/Manual switch. The controller delivers intelligent voltage regulation with password-protected settings, adjustable correction speed, and highly accurate voltage displays. Built-in protections include high/low cut-off, adjustable turn-on/off delays, and ±1% regulation tolerance—ideal for demanding industrial environments.",
+  "sku": "SRVCTRL-PTK",
+  "rating": null,
+  "reviewCount": null,
+  "isNew": false,
+  "isBestseller": false,
+  "isOnSale": false,
+  "images": [
+    {
+      "url": "/assets/images/Controller/ServoStabilizerController.png",
+      "alt": "Servo Stabilizer Controller – Front View"
+    }
+  ],
+  "features": [
+    "Plug & Play design with 5–7 connections",
+    "Minimal external wiring via built-in sensing transformer",
+    "Password-protected voltage regulation settings",
+    "Front-panel Auto/Manual switch",
+    "Adjustable correction speed for motor/variac size",
+    "Calibratable high-accuracy input & output voltage display",
+    "High and low voltage cut-off protection",
+    "Output set voltage with ±1% regulation tolerance",
+    "Adjustable turn-on and turn-off delays"
+  ],
+  "applicationAreas": [
+    "Servo voltage stabilizers",
+    "CNC machines",
+    "Textile machinery",
+    "Printing machines"
+  ],
+  "specifications": {
+    "Connections": "5–7 plug‑and‑play terminals",
+    "Voltage Regulation": "±1% tolerance with adjustable set point",
+    "Correction Speed": "User-adjustable for motor/variac matching",
+    "Display Accuracy": "Calibratable input/output voltage meter",
+    "Protection": "High/low cut‑off, timing delays on turn‑on/off",
+    "Control Modes": "Manual and Auto via front-panel switch",
+    "Settings Security": "Password protected"
+  },
+  "warranty": {
+    "period": "1‑Year",
+    "type": "Standard Warranty",
+    "coverage": "Covers controller board and microcontroller; excludes wiring and installation errors."
+  },
+  "reviews": []
+},
+//Step Stabilizer Controller
+{
+  "id": "stepctrl1",
+  "name": "Step Stabilizer Controller",
+  "price": "2000",
+  "image": "/assets/images/Controller/StepStabilizerController.png",
+  "category": "Digital Controller",
+  "slug": "step-stabilizer-controller",
+  "description": "Microcontroller-based controller for step voltage stabilizers featuring continuous voltage monitoring and zero-cross relay switching.",
+  "fullDescription": "Pro_Tek’s Step Stabilizer Controller provides precise regulation for step-type voltage stabilizers with minimal wiring and plug-and-play installation. It continuously monitors input/output voltages, switches relays at zero-crossing points to reduce noise and wear, and supports standard or customized voltage ranges (100–290 V). Designed to work seamlessly with 12 V or 24 V relay modules, it includes automatic cut-off, adjustable delays, and is ideal for stabilizers in industrial settings like CNC, textile, and printing machinery.",
+  "sku": "STEPCTRL-PTK",
+  "rating": null,
+  "reviewCount": null,
+  "isNew": false,
+  "isBestseller": false,
+  "isOnSale": false,
+  "images": [
+    {
+      "url": "/assets/images/Controller/StepStabilizerController.png",
+      "alt": "Step Stabilizer Controller – Front View"
+    }
+  ],
+  "features": [
+    "Continuous real‑time input/output voltage display",
+    "Zero‑crossing relay switching for silent, reliable operation",
+    "Supports voltage range settings: 100‑290 V, 140‑290 V, 180‑280 V",
+    "Plug‑and‑play design with 3‑pin main and 3‑5 wire control connections",
+    "Compatible with 12 V or 24 V relay modules",
+    "Standard high/low voltage cut‑off with adjustable turn‑on delay",
+    "Factory and bulk‑customizable versions available",
+    "Minimal external wiring via relay card control inputs"
+  ],
+  "applicationAreas": [
+    "Step-type voltage stabilizers",
+    "CNC machine tools",
+    "Textile machinery",
+    "Printing machines"
+  ],
+  "specifications": {
+    "Voltage Monitoring": "Continuous real‑time display",
+    "Relay Switching": "Zero‑crossing switching",
+    "Voltage Ranges": "100–290 V, 140–290 V, 180–280 V",
+    "Relay Module": "12 V or 24 V input",
+    "Wiring": "3-pin input/output; 3‑5 wire control",
+    "Installation": "Plug‑and‑play, direct transformer wiring",
+    "Protection": "High/low cut‑off, turn‑on delay timer",
+    "Customization": "Available for bulk designs"
+  },
+  "warranty": {
+    "period": "1‑Year",
+    "type": "Limited Warranty",
+    "coverage": "Covers controller PCB, zero‑cross relay switching module; excludes external wiring and installation errors."
+  },
+  "reviews": []
+},
+
+//Isolation Transformer
+{
+  "id": "iso1",
+  "name": "Isolation Transformer",
+  "price": "5000",
+  "image": "/assets/images/IsolationTransformer/IsolationTransformer.png",
+  "category": "Isolation Transformer",
+  "slug": "isolation-transformer",
+  "description": "High-performance transformer providing full electrical isolation, noise suppression, and safety for sensitive equipment.",
+  "fullDescription": "Pro_Tek designs Isolation, Ultra-Isolation, and K‑Rated transformers tailored to industrial and critical applications. These transformers decouple primary and secondary circuits, block DC transmission, suppress ground-loop interference, and attenuate both common- and transverse-mode noise via electrostatic Faraday shielding. Ultra Isolation models offer enhanced noise rejection for telecom and medical setups, while K‑Rated types are engineered to handle nonlinear harmonics per ANSI/UL standards. Constructed with CRGO laminations and designed for high overload tolerance, these transformers deliver stable voltage, minimal leakage, and reliable performance.",
+  "sku": "ISO-PTK",
+  "rating": null,
+  "reviewCount": null,
+  "isNew": false,
+  "isBestseller": false,
+  "isOnSale": false,
+  "images": [
+    {
+      "url": "/assets/images/IsolationTransformer/IsolationTransformer.png",
+      "alt": "Isolation Transformer – Front View"
+    }
+  ],
+  "features": [
+    "Primary-secondary galvanic isolation",
+    "Electrostatic Faraday shielding for noise suppression",
+    "Blocks DC component, allows AC transmission",
+    "Ultra Isolation models for telecom, medical, wireless systems",
+    "K‑Rated versions designed for harmonic-heavy loads (K‑1 to K‑20)",
+    "High-grade CRGO laminations to prevent core saturation",
+    "Handles up to 25% overload without saturation",
+    "Low leakage, suitable for sensitive equipment"
+  ],
+  "applicationAreas": [
+    "CNC machinery and industrial control",
+    "Telecom systems and wireless stations",
+    "Medical imaging and diagnostic equipment",
+    "Audio systems and studio equipment",
+    "Power supply conditioners and UPS inputs"
+  ],
+  "specifications": {
+    "Topology": "Isolation transformer with dual Faraday shields",
+    "Noise Attenuation": "High common-mode & transverse-mode suppression",
+    "K‑Rating": "Available K‑1 to K‑20 per ANSI C57",
+    "Insulation Class": "Class‑H, high thermal rating",
+    "Core Material": "CRGO laminated steel, notching type",
+    "Overload Tolerance": "10–15% overvoltage, core remains unsaturated",
+    "Overload Capacity": "25% extra load for 24 hours",
+    "Cooling": "Natural air or oil cooling for high KVAs"
+  },
+  "warranty": {
+    "period": "3‑Year",
+    "type": "Comprehensive Warranty",
+    "coverage": "Covers core, windings, and shielding; excludes physical damage and misuse."
+  },
+  "reviews": []
 }
+
 
 
 ];

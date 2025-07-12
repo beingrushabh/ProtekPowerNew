@@ -27,20 +27,7 @@ export const productCategories = [
         description: 'Consistent voltage supply for critical devices',
         image: '/assets/images/categories/constant-voltage-transformer.jpg'
     },
-    {
-        id: 'power-saver',
-        name: 'Power Saver',
-        slug: 'power-saver',
-        description: 'Efficient energy saving devices',
-        image: '/assets/images/categories/power-saver.jpg'
-    },
-    {
-        id: 'power-inverters',
-        name: 'Power Inverters',
-        slug: 'power-inverters',
-        description: 'Reliable power backup solutions',
-        image: '/assets/images/categories/power-inverters.jpg'
-    },
+   
     {
         id: 'battery-chargers',
         name: 'Battery Chargers',
@@ -61,6 +48,13 @@ export const productCategories = [
         slug: 'digital-step-stabilizer',
         description: 'Step-wise voltage regulation',
         image: '/assets/images/categories/digital-step-stabilizer.jpg'
+    },
+    {
+        id: 'digital-controller',
+        name: 'Digital Controller',
+        slug: 'digital-controller',
+        description: 'Step-wise voltage regulation',
+        image: '/assets/images/Controller/ServoStabilizerController.png'
     }
 ];
 
@@ -69,20 +63,20 @@ export const productCategoriesHome = [
        
         title: 'Stabilizers',
         description: 'Stable voltage output for sensitive equipment',
-        image: '/assets/images/categories/servo-stabilizer.jpg',
+        image: '/assets/images/ServoVoltageStabilizer/10KVAStabilizerFront.jpeg',
         link: '/products/digital-voltage-stabilizer'
     },
     {
         link: '/products/constant-voltage-transformer',
         title: 'Control Voltage Transforme',
         description: 'Uninterrupted power supply solutions',
-        image: '/assets/images/categories/ups.jpg'
+        image: '/assets/images/cvt/cvt_front.jpeg'
     },
     {
         link: '/products/ups-systems',
         title: 'UPS Systems',
         description: 'Digital precision for voltage control',
-        image: '/assets/images/categories/digital-stabilizer.jpg'
+        image: '/assets/images/ups/HighFreqOnlineUps.png'
     },
 
 ];
