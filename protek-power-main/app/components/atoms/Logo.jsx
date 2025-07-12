@@ -37,7 +37,6 @@ const styles = {
         width: '100%',
         height: '100%',
         borderRadius: '8px',
-        border: '1px solid rgba(0, 102, 204, 0.15)',
         zIndex: 0,
     },
     tracerLine: {

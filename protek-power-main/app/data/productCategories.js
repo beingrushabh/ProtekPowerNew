@@ -68,7 +68,7 @@ export const productCategoriesHome = [
     },
     {
         link: '/products/constant-voltage-transformer',
-        title: 'Control Voltage Transforme',
+        title: 'Control Voltage Transformer',
         description: 'Uninterrupted power supply solutions',
         image: '/assets/images/cvt/cvt_front.jpeg'
     },
