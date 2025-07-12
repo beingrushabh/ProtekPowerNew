@@ -63,3 +63,26 @@ export const productCategories = [
         image: '/assets/images/categories/digital-step-stabilizer.jpg'
     }
 ];
+
+export const productCategoriesHome = [
+    {
+       
+        title: 'Stabilizers',
+        description: 'Stable voltage output for sensitive equipment',
+        image: '/assets/images/categories/servo-stabilizer.jpg',
+        link: '/products/digital-voltage-stabilizer'
+    },
+    {
+        link: '/products/constant-voltage-transformer',
+        title: 'Control Voltage Transforme',
+        description: 'Uninterrupted power supply solutions',
+        image: '/assets/images/categories/ups.jpg'
+    },
+    {
+        link: '/products/ups-systems',
+        title: 'UPS Systems',
+        description: 'Digital precision for voltage control',
+        image: '/assets/images/categories/digital-stabilizer.jpg'
+    },
+
+];

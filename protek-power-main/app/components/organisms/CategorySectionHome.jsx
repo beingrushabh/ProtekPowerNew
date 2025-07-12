@@ -1,28 +1,9 @@
 import React from 'react';
 import ProductCard from '../molecules/CategoryCard';
 import CategoryCard from '../molecules/CategoryCard';
-
+import { productCategoriesHome  } from '../../data/productCategories';
 export default function CategorySectionHome() {
-    const productCategories = [
-        {
-            image: '/assets/images/batteries.jpg',
-            title: 'Batteries',
-            description: 'High-performance batteries for reliable power backup and energy storage solutions.',
-            link: '/products/batteries'
-        },
-        {
-            image: '/assets/images/inverters.jpg',
-            title: 'Inverters',
-            description: 'Advanced inverters designed for optimal conversion efficiency and stable power supply.',
-            link: '/products/inverters'
-        },
-        {
-            image: '/assets/images/transformers.jpg',
-            title: 'Transformers',
-            description: 'Durable transformers engineered to provide voltage regulation and power distribution control.',
-            link: '/products/transformers'
-        }
-    ];
+    const productCategories = productCategoriesHome;
 
     return (
         <section style={styles.section}>

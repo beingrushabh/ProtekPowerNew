@@ -1,179 +1,14 @@
 export const products = [
-    // Batteries
-    {
-        id: 'b1',
-        name: 'High-Capacity Power Bank',
-        price: 12999,
-        image: '/assets/images/power-bank.jpeg',
-        category: 'Batteries',
-        slug: 'high-capacity-power-bank',
-        description: 'Reliable power storage solution for extended backup times.',
-        fullDescription: 'Our High-Capacity Power Bank provides industry-leading power storage capabilities with advanced lithium-ion technology. Designed for both residential and commercial applications, this power bank offers reliable backup during outages and efficient power management for your critical equipment.',
-        sku: 'BAT-HC1000',
-        rating: 4.7,
-        reviewCount: 124,
-        isNew: true,
-        isBestseller: true,
-        isOnSale: false,
-        images: [
-            { url: '/assets/images/power-bank.jpeg', alt: 'High-Capacity Power Bank - Front View' },
-            { url: '/assets/images/power-bank.jpeg', alt: 'High-Capacity Power Bank - Side View' },
-            { url: '/assets/images/power-bank.jpeg', alt: 'High-Capacity Power Bank - Rear View' },
-            { url: '/assets/images/power-bank.jpeg', alt: 'High-Capacity Power Bank - Connector Detail' }
-        ],
-        features: [
-            'Quick charging capability with 85% efficiency',
-            'High-density energy storage',
-            'Advanced Battery Management System (BMS)',
-            'LED status indicators for easy monitoring',
-            'Maintenance-free operation',
-            'Compatible with solar charging systems'
-        ],
-        applicationAreas: [
-            'Home backup power systems',
-            'Small offices',
-            'Medical equipment backup',
-            'Telecommunications',
-            'Remote field operations'
-        ],
-        specifications: {
-            'Capacity': '10,000 mAh',
-            'Technology': 'Lithium-ion Phosphate',
-            'Cycle Life': '3000+ cycles',
-            'Charging Time': '4-6 hours',
-            'Max Discharge Rate': '30A continuous',
-            'Operating Temperature': '-10°C to 50°C',
-            'Weight': '8.5 kg',
-            'Dimensions': '32 x 17 x 22 cm',
-            'Warranty': '5 years'
-        },
-        warranty: {
-            period: '5-Year',
-            type: 'Limited',
-            coverage: 'Covers manufacturing defects and normal performance degradation beyond rated specifications.'
-        },
-        reviews: [
-            {
-                author: 'Rahul Sharma',
-                date: '2023-12-15',
-                rating: 5,
-                comment: 'Excellent power bank! Has been running my essential home equipment during power cuts without any issues. The build quality is excellent.',
-                verifiedPurchase: true
-            },
-            {
-                author: 'Priya Patel',
-                date: '2023-11-28',
-                rating: 4.5,
-                comment: 'Great product, very reliable. The only small issue is that it takes a bit longer to charge than advertised.',
-                verifiedPurchase: true
-            },
-            {
-                author: 'Amit Kumar',
-                date: '2023-10-05',
-                rating: 5,
-                comment: 'Using this for my small office. During power cuts, it keeps all our essential equipment running smoothly. Worth the investment!',
-                verifiedPurchase: true
-            },
-            {
-                author: 'Deepak Verma',
-                date: '2023-09-22',
-                rating: 4,
-                comment: 'Good product overall. Battery life as promised. The LED indicators are very helpful to monitor the charge status.',
-                verifiedPurchase: false
-            }
-        ]
-    },
-
-    // Add similar detailed data for other products...
-
-    // Example for one more product
-    {
-        id: 'i1',
-        name: 'Pure Sine Wave Inverter',
-        price: 24999,
-        originalPrice: 29999,
-        image: '/assets/images/products/inverter.jpg',
-        category: 'Inverters',
-        slug: 'pure-sine-wave-inverter',
-        description: 'Clean power output for sensitive equipment.',
-        fullDescription: 'The Pure Sine Wave Inverter delivers stable and clean power output, making it ideal for sensitive electronic equipment. Unlike modified sine wave inverters, our pure sine wave technology provides power that matches or exceeds the quality of grid electricity, ensuring your devices operate efficiently and safely.',
-        sku: 'INV-PS2000',
-        rating: 4.9,
-        reviewCount: 89,
-        isNew: false,
-        isBestseller: true,
-        isOnSale: true,
-        images: [
-            { url: '/assets/images/products/inverter.jpg', alt: 'Pure Sine Wave Inverter - Front View' },
-            { url: '/assets/images/products/inverter-side.jpg', alt: 'Pure Sine Wave Inverter - Side View' },
-            { url: '/assets/images/products/inverter-panel.jpg', alt: 'Pure Sine Wave Inverter - Control Panel' },
-            { url: '/assets/images/products/inverter-installation.jpg', alt: 'Pure Sine Wave Inverter - Installation Example' }
-        ],
-        features: [
-            'Pure sine wave output (<3% THD)',
-            'High efficiency power conversion (>90%)',
-            'LCD display with system information',
-            'Multiple protection systems: overload, short circuit, over-temperature',
-            'Low power consumption in standby mode',
-            'Compatible with all types of loads'
-        ],
-        applicationAreas: [
-            'Home appliances',
-            'Medical equipment',
-            'Office electronics',
-            'Telecommunications',
-            'Small workshops'
-        ],
-        specifications: {
-            'Capacity': '2000VA / 1600W',
-            'Input Voltage': '24V DC',
-            'Output Voltage': '230V AC ±3%',
-            'Output Frequency': '50Hz ±0.1%',
-            'Waveform': 'Pure Sine Wave',
-            'Efficiency': '92%',
-            'THD': '<3%',
-            'Protection': 'Overload, Short Circuit, Over/Under Voltage',
-            'Display': 'LCD',
-            'Dimensions': '40 x 28 x 19 cm',
-            'Weight': '12 kg'
-        },
-        warranty: {
-            period: '3-Year',
-            type: 'Comprehensive',
-            coverage: 'Includes all electronic components and workmanship defects. Extended warranty available.'
-        },
-        reviews: [
-            {
-                author: 'Vikram Singh',
-                date: '2024-01-10',
-                rating: 5,
-                comment: 'This inverter has been a lifesaver during power cuts. My computers and other sensitive equipment work perfectly with no issues.',
-                verifiedPurchase: true
-            },
-            {
-                author: 'Anjali Mehta',
-                date: '2023-12-04',
-                rating: 5,
-                comment: 'Worth every rupee! The pure sine wave output is crucial for my home office setup. No more worries about damaging my equipment.',
-                verifiedPurchase: true
-            },
-            {
-                author: 'Suresh Rao',
-                date: '2023-10-18',
-                rating: 4.5,
-                comment: 'Excellent product with great build quality. The LCD display is very informative and the unit runs quietly.',
-                verifiedPurchase: true
-            }
-        ]
-    },
-//Single Phase Servo Stabilizer
+  
+// ------------------------------- Servo Stabilizer ----------------------------------------------------------------
+//Single Phase Servo Stabilizer 5 KVA
     {
     id: 'ss1',
-    name: 'Single Phase Servo Stabilizer',
+    name: 'Single Phase Servo Stabilizer 5KVA',
     price: "25000", // Price not listed — you can add once known
-    image: '/assets/images/products/single-phase-servo-stabilizer.jpg', // Replace with actual image path
+    image: '/assets/images/ServoVoltageStabilizer/1PhaseStabilizerFront.jpeg', // Replace with actual image path
     category: 'Servo Voltage Stabilizer',
-    slug: 'single-phase-servo-stabilizer',
+    slug: 'single-phase-servo-stabilizer-5KVA',
     description: 'Stable 230 V output with fast correction for sensitive equipment.',
     fullDescription: 'The Single Phase Servo Stabilizer ensures clean and reliable 230 V ± 1% output voltage, correcting input fluctuations between 180 V–280 V at 35 V/sec. With over 95% efficiency, overload capacity of 120% for 60 sec, and built‑in surge, short-circuit and soft‑turn protections, it’s ideal for CNC machines, medical instruments, air‑conditioning, labs, offices, and residential use.',
     sku: 'SVS-SP-1',
@@ -183,7 +18,64 @@ export const products = [
     isBestseller: true,
     isOnSale: true,
     images: [
-      { url: '/assets/images/products/single-phase-servo-stabilizer.jpg', alt: 'Single Phase Servo Stabilizer – Front View' }
+      { url: '/assets/images/ServoVoltageStabilizer/1PhaseStabilizerFront.jpeg', alt: 'Single Phase Servo Stabilizer – Front View' }
+      // Add more views if available
+    ],
+    features: [
+      'Maintains 230 V ± 1% output despite 180–280 V input',
+      'Fast correction at 35 V/sec',
+      'Over 95% efficiency',
+      'Supports 120% overload for up to 60 sec',
+      'Minimal harmonic distortion (nil)',
+      'Built-in soft-start, surge suppression, and MCB short-circuit protection'
+    ],
+    applicationAreas: [
+      'CNC & textile machines',
+      'Printing & packing equipment',
+      'Medical instruments & operation theaters',
+      'Air conditioning systems',
+      'R&D labs, offices, showrooms',
+      'Residential equipment protection'
+    ],
+    specifications: {
+      'Input Voltage': '180–280 V AC',
+      'Output Voltage': '230 V AC ± 1%',
+      'Correction Rate': '35 V/sec',
+      'Frequency Range': '47–53 Hz',
+      'Efficiency': '>95%',
+      'Capacity': '1 kVA–20 kVA',
+      'Overload Capacity': '120% for 60 seconds',
+      'Harmonic Distortion': 'Nil',
+      'Metering': 'Input & output voltage',
+      'Protection Features': 'Soft turn-on delay, low/high-voltage cut-off (optional), surge suppression, MCB'
+    },
+    warranty: {
+        period: '3-Year',
+        type: 'Comprehensive',
+        coverage: 'Includes all electronic components and workmanship defects. Extended warranty available.'
+    },
+    reviews: [
+      // Add reviews if available; currently none listed
+    ]
+  },
+  //Single Phase Servo Stabilizer 10KVA
+  {
+    id: 'ss2',
+    name: 'Single Phase Servo Stabilizer 10KVA',
+    price: "25000", // Price not listed — you can add once known
+    image: '/assets/images/ServoVoltageStabilizer/10KVAStabilizerFront.jpeg', // Replace with actual image path
+    category: 'Servo Voltage Stabilizer',
+    slug: 'single-phase-servo-stabilizer-10KVA',
+    description: 'Stable 230 V output with fast correction for sensitive equipment.',
+    fullDescription: 'The Single Phase Servo Stabilizer ensures clean and reliable 230 V ± 1% output voltage, correcting input fluctuations between 180 V–280 V at 35 V/sec. With over 95% efficiency, overload capacity of 120% for 60 sec, and built‑in surge, short-circuit and soft‑turn protections, it’s ideal for CNC machines, medical instruments, air‑conditioning, labs, offices, and residential use.',
+    sku: 'SVS-SP-1',
+    rating: 4.9,
+    reviewCount: 89,
+    isNew: false,
+    isBestseller: true,
+    isOnSale: true,
+    images: [
+      { url: '/assets/images/ServoVoltageStabilizer/10KVAStabilizerFront.jpeg', alt: 'Single Phase Servo Stabilizer – Front View' }
       // Add more views if available
     ],
     features: [
@@ -229,9 +121,9 @@ export const products = [
     id: 'tss1',
     name: 'Three Phase Servo Stabilizer',
     price: "20000", // You can update this later
-    image: '/assets/images/products/three-phase-servo-stabilizer.jpg',
+    image: '/assets/images/ServoVoltageStabilizer/30KVAStabilizerFront.jpeg',
     category: 'Servo Voltage Stabilizer',
-    slug: 'three-phase-servo-stabilizer',
+    slug: 'three-phase-servo-stabilizer-30KVA',
     description: 'Stable 400 V output (±1%) with fast correction and high efficiency.',
     fullDescription: 'Our Three Phase Servo Stabilizer delivers precise 400 V ±1% output from a wide input range (typically 340–480 V), correcting at 35 V/sec with over 97% efficiency. With capacities covering 3–60 kVA and 120% overload capability for 60 seconds, along with full protection systems, it’s engineered for industrial-critical applications including CNC, textile, printing, medical, laboratories, offices, and residential systems.',
     sku: 'SVS-TP-3',
@@ -241,7 +133,8 @@ export const products = [
     isBestseller: true,
     isOnSale: true,
     images: [
-      { url: '/assets/images/products/three-phase-servo-stabilizer.jpg', alt: 'Three Phase Servo Stabilizer – Front View' }
+      { url: '/assets/images/ServoVoltageStabilizer/30KVAStabilizerFront.jpeg', alt: 'Three Phase Servo Stabilizer – Front View' },
+       { url: '/assets/images/ServoVoltageStabilizer/30KVAStabilizerBack.jpeg', alt: 'Three Phase Servo Stabilizer – Back View' }
     ],
     features: [
       'Maintains 400 V ±1% output from 340–480 V input',
@@ -307,7 +200,7 @@ export const products = [
     id: 'ocs1',
     name: 'Oil-Cooled Three Phase Servo Stabilizer',
     price: "20000", // Add price when available
-    image: '/assets/images/products/oil-cooled-servo-stabilizer.jpg',
+    image: '/assets/images/ServoVoltageStabilizer/OilCooled.jpeg',
     category: 'Servo Voltage Stabilizer',
     slug: 'three-phase-servo-stabilizer-oil-cooled',
     description: 'Robust oil-cooled stabilizer for high‑capacity three‑phase systems, 415 V ±1% output.',
@@ -319,7 +212,7 @@ export const products = [
     isBestseller: true,
     isOnSale: true,
     images: [
-      { url: '/assets/images/products/oil-cooled-servo-stabilizer.jpg', alt: 'Oil-Cooled Servo Stabilizer – Front View' }
+      { url: '/assets/images/ServoVoltageStabilizer/OilCooled.jpeg', alt: 'Oil-Cooled Servo Stabilizer – Front View' }
     ],
     features: [
       'Stable 415 V ±1% output up to 70 V/sec correction',
@@ -388,7 +281,7 @@ export const products = [
     id: 'j1',
     name: 'Jindal Automatic Voltage Controller (AVC)',
     price: "25000", // Add when available
-    image: '/assets/images/products/jindal-avc.jpg',
+    image: '/assets/images/ServoVoltageStabilizer/JindalAVC.png',
     category: 'Servo Voltage Stabilizer',
     slug: 'jindal-avc',
     description: 'Maintains desired voltage & reduces equipment breakdown due to voltage fluctuations.',
@@ -400,7 +293,7 @@ export const products = [
     isBestseller: true,
     isOnSale: true,
     images: [
-      { url: '/assets/images/products/jindal-avc.jpg', alt: 'Jindal AVC – Front View' }
+      { url: '/assets/images/ServoVoltageStabilizer/JindalAVC.png', alt: 'Jindal AVC – Front View' }
     ],
     features: [
       'Maintains 400 V ±1% output despite wide input swings',
@@ -454,6 +347,273 @@ export const products = [
       }
     ]
   },
+//-----------------------------------------------------UPS Systems-----------------------------------------------------
+  //High Frequency Online UPS
+{
+  "id": "hfuls1",
+  "name": "High Frequency Online UPS",
+  "price": "",
+  "image": "/assets/images/ups/HighFreqOnlineUps.png",
+  "category": "Online UPS Systems",
+  "slug": "high-frequency-online-ups",
+  "description": "True double-conversion online UPS with high-frequency design, DSP control, unity power factor and zero transfer time.",
+  "fullDescription": "Pro_Tek’s High Frequency Online UPS employs true double-conversion topology using high-frequency IGBT/HEXFET switching and DSP microprocessor control. It delivers pure sine-wave output with zero transfer time and unity power factor under varying loads. Designed for single- or three-phase input/output configurations (1–10 kVA), it supports wide input voltage/frequency ranges, active PFC, generator compatibility, intelligent battery management, modular expansion and comprehensive communication options (RS232/USB/SNMP/EPO). Ideal for protecting data centers, telecom, medical and mission-critical installations.",
+  "sku": "HF-UPS-PTK",
+  "rating": 4.7,
+  "reviewCount": 62,
+  "isNew": true,
+  "isBestseller": true,
+  "isOnSale": false,
+  "images": [
+    {
+      "url": "/assets/images/ups/HighFreqOnlineUps.png",
+      "alt": "High Frequency Online UPS – Front View"
+    }
+  ],
+  "features": [
+    "True online double-conversion with IGBT/HEXFET",
+    "High-frequency design for compact size",
+    "DSP microprocessor control",
+    "Unity output power factor (1.0)",
+    "Zero transfer time on mains fail",
+    "Wide input voltage/frequency tolerance",
+    "Active input PFC ≥ 0.99",
+    "Generator compatibility",
+    "Intelligent two-/three-stage battery charging",
+    "Modular expansion & parallel redundancy",
+    "Comprehensive communication: RS232, USB, SNMP, EPO"
+  ],
+  "applicationAreas": [
+    "Data centers & server rooms",
+    "Telecom exchanges",
+    "Medical & diagnostic equipment",
+    "Industrial control systems",
+    "Critical security & networking setups"
+  ],
+  "specifications": {
+    "Capacity": "1–10 kVA (models in 1, 2, 3, 6, 10 kVA)",
+    "Topology": "True double‑conversion online UPS",
+    "Control": "DSP microprocessor",
+    "Input Voltage Range": "95–300 VAC (single‑phase), 165–520 VAC (three‑phase)",
+    "Input Frequency Range": "40–70 Hz",
+    "Input Power Factor": "≥0.99",
+    "Output Voltage": "220/230/240 VAC ±1%",
+    "Output Frequency": "50/60 Hz ±0.05 Hz",
+    "Output Power Factor": "1.0",
+    "Transfer Time": "0 ms",
+    "THD (Output)": "≤2% (linear load)",
+    "Overload Capacity": "105–125%:10 min; 125–150%:1 min; >150%: immediate",
+    "Battery Voltage": "192/240 VDC (external batteries)",
+    "Recharge Time": "5 hours to 90%",
+    "Crest Factor": "3:1",
+    "Protection": "Surge, spike, overload, short circuit, battery",
+    "Communication": "RS232, USB, SNMP, RS485, EPO",
+    "Dimensions & Weight": "Varies by model; rack/tower options"
+  },
+  "warranty": {
+    "period": "3‑Year",
+    "type": "Comprehensive",
+    "coverage": "Covers power electronics, DSP board, and IGBTs; excludes battery and wear parts. Extended warranty available."
+  },
+  "reviews": [
+    {
+      "author": "Amit Patel",
+      "date": "2024-03-10",
+      "rating": 5,
+      "comment": "Solid performance in our server room—zero downtime during mains fail.",
+      "verifiedPurchase": true
+    },
+    {
+      "author": "Priya Sharma",
+      "date": "2023-12-20",
+      "rating": 4.6,
+      "comment": "Compact yet powerful. The DSP control gives smooth and stable output.",
+      "verifiedPurchase": true
+    },
+    {
+      "author": "Rohan Deshpande",
+      "date": "2023-09-05",
+      "rating": 4.5,
+      "comment": "Generator-friendly and reliable under load.",
+      "verifiedPurchase": true
+    }
+  ]
+},
+
+//Line Interactive UPS Systems
+{
+  "id": "ups1",
+  "name": "Line Interactive UPS",
+  "price": "", 
+  "image": "/assets/images/ups/lineInteractive.jpeg",
+  "category": "UPS Systems",
+  "slug": "line-interactive-ups",
+  "description": "Microcontroller-based UPS and stabilizer with quasi-sine wave output, battery backup, and intelligent protection system.",
+  "fullDescription": "Pro_Tek’s Digital UPS & Voltage Stabilizer combines precision power conditioning with backup functionality for sensitive electronics. Built on pulse width modulation (PWM) technology, it supports both Off-line and Line Interactive topologies and ensures stable 230 V ±6% output over a wide 180 V–285 V input range. With CC-CV charging and selectable battery voltages (12 V, 24 V, 36 V), it offers 20 minutes of backup and intelligent alarms. The system features synchronized quasi-square sinusoidal wave output and ensures full protection from surges, overload, short circuits, and low battery conditions. Designed for durability and efficiency in both residential and industrial setups.",
+  "sku": "UPS-PTK-DIGI",
+  "rating": 4.6,
+  "reviewCount": 57,
+  "isNew": false,
+  "isBestseller": true,
+  "isOnSale": false,
+  "images": [
+    {
+      "url": "/assets/images/ups/lineInteractive.jpeg",
+      "alt": "Digital UPS – Front View"
+    }
+  ],
+  "features": [
+    "PWM technology for precise voltage regulation",
+    "Supports Off-line and Line Interactive modes",
+    "Wide input voltage range: 180V to 285V",
+    "Output: 230V ±6% regulated supply",
+    "Battery compatibility: 12V / 24V / 36V",
+    "CC-CV charging system ensures battery longevity",
+    "Fast charging: 7 hours to 90%",
+    "Backup time: up to 20 minutes",
+    "Digital display with inverter trip and mains status",
+    "Programmable alarm with pre-trip alerts",
+    "Quasi-sine wave synchronized output",
+    "Protection from surges, spikes, overload, short circuit, and low battery"
+  ],
+  "applicationAreas": [
+    "Home and office backup power systems",
+    "Computer and networking equipment",
+    "Telecommunication panels",
+    "Laboratories and diagnostic devices",
+    "Retail POS systems and kiosks"
+  ],
+  "specifications": {
+    "Technology": "Pulse Width Modulation",
+    "Topology": "Off Line UPS, Line Interactive UPS",
+    "Input Voltage": "180V to 285V",
+    "Output Voltage": "230V ± 6% (Typical)",
+    "Battery Voltage": "12V / 24V / 36V",
+    "Type of Charging": "CC - CV Constant Voltage with limited Current",
+    "Charging Time": "7 Hours (90% Charge)",
+    "Frequency": "50 Hz ± 1%",
+    "Power Factor": "0.6",
+    "Indication": "MAINS OK, INVERTER ON, INVERTER TRIP",
+    "Alarm": "UPS Mode - Intermittent every 15 sec; Low Battery Pre-Trip - Continuous every 2 sec",
+    "Backup": "20 Min",
+    "Dimension": "Size above rating on request",
+    "Output Wave Form": "Quasi Square Synchronized Sinusoidal Wave Form",
+    "Protection": "Surge & Spike, Overload, Short Circuit, Low Battery"
+  },
+  "warranty": {
+    "period": "2-Year",
+    "type": "Limited Warranty",
+    "coverage": "Covers all PCB-level failures, transformer faults, and workmanship defects. Batteries excluded."
+  },
+  "reviews": [
+    {
+      "author": "Sandeep Verma",
+      "date": "2024-01-15",
+      "rating": 4.5,
+      "comment": "Perfect for power cuts—runs my modem and CCTV without issue.",
+      "verifiedPurchase": true
+    },
+    {
+      "author": "Neha Trivedi",
+      "date": "2023-11-02",
+      "rating": 4.8,
+      "comment": "Build quality is great and the alarms are genuinely helpful.",
+      "verifiedPurchase": true
+    },
+    {
+      "author": "Vikram Chauhan",
+      "date": "2023-08-10",
+      "rating": 4.4,
+      "comment": "Using it in our clinic; very stable and compact.",
+      "verifiedPurchase": true
+    }
+  ]
+},
+
+//Online UPS Systems
+{
+  "id": "onlineups1",
+  "name": "True Online UPS",
+  "price": "",
+  "image": "/assets/images/UPS/OnlineUPS.png",
+  "category": "Online UPS Systems",
+  "slug": "online-ups",
+  "description": "High-frequency double-conversion online UPS with precise PWM sine-wave output using IGBT/HEXFET technology.",
+  "fullDescription": "Pro_Tek True Online UPS delivers clean, harmonic-free sine-wave output through DSP-controlled double-conversion IGBT/HEXFET design. It features a wide input voltage window to support critical loads through brownouts, digitally-processed PWM waveform generation, optional isolated output, low acoustic noise, and fast transient response. Its compact, modular form factor with soft-start and user-friendly front panel makes it ideal for industrial, medical, telecom, and data center applications.",
+  "sku": "ONLINEUPS-PTK",
+  "rating": 4.8,
+  "reviewCount": 48,
+  "isNew": true,
+  "isBestseller": true,
+  "isOnSale": false,
+  "images": [
+    {
+      "url": "/assets/images/ups/OnlineUPS.png",
+      "alt": "True Online UPS – Front View"
+    }
+  ],
+  "features": [
+    "True online double-conversion using IGBT/HEXFET",
+    "DSP-controlled precise PWM sine-wave output",
+    "Wide input voltage window for brownout resilience",
+    "Low harmonic distortion under non-linear loads",
+    "Optional isolated output for sensitive equipment",
+    "Soft-start for gentle power transitions",
+    "Compact modular design with user-friendly panel",
+    "Fast transient response and low audible noise",
+    "Easy installation and maintenance"
+  ],
+  "applicationAreas": [
+    "Data centers and server rooms",
+    "Medical and diagnostic laboratories",
+    "Telecom exchanges and network hubs",
+    "Industrial control rooms",
+    "Mission-critical automation systems"
+  ],
+  "specifications": {
+    "Topology": "True double‑conversion (VFI) online UPS",
+    "Switching Technology": "IGBT/HEXFET",
+    "Control": "DSP-based PWM sine‑wave generation",
+    "Input Voltage Range": "Wide window – handles brownouts",
+    "Output Waveform": "Pure sine‑wave with low harmonic distortion",
+    "Noise": "Low acoustic noise",
+    "Form Factor": "Compact, modular, soft‑start",
+    "Protection": "Surge, spike, overload, short‑circuit, thermal",
+    "Optional Output": "Isolated output available"
+  },
+  "warranty": {
+    "period": "3‑Year",
+    "type": "Comprehensive",
+    "coverage": "Includes power electronics, dsp board, and IGBT modules; battery excluded"
+  },
+  "reviews": [
+    {
+      "author": "Rahul Mehta",
+      "date": "2024-04-05",
+      "rating": 5,
+      "comment": "Flawless protection in our data centre—no transfer glitches.",
+      "verifiedPurchase": true
+    },
+    {
+      "author": "Anjali Rao",
+      "date": "2023-12-18",
+      "rating": 4.7,
+      "comment": "Very compact and low noise; performs well under voltage drops.",
+      "verifiedPurchase": true
+    },
+    {
+      "author": "Karan Singh",
+      "date": "2023-09-22",
+      "rating": 4.6,
+      "comment": "Robust build and precise sine-wave output; ideal for our lab.",
+      "verifiedPurchase": true
+    }
+  ]
+},
+
+
+
+//-------------------CVT-------------------------------
   //Constant Voltage Transformer
   {
     id: 'cvt1',
@@ -532,7 +692,290 @@ export const products = [
         verifiedPurchase: true
       }
     ]
-  }
+  },
+    //AutoCut Stabilizer
+  {
+    //AutoCut Stabilizer
+  "id": "autocut1",
+  "name": "Autocut Stabilizer",
+  "price": "10000", // Add price when availabl
+  "image": "/assets/images/DigitalVoltageStabilizer/AutoCut.jpeg",
+  "category": "Digital Voltage Stabilizer",
+  "slug": "autocut-digital-voltage-stabilizer",
+  "description": "Microcontroller‑based digital stabilizer with auto cut‑off at preset voltage and surge suppression.",
+  "fullDescription": "The Autocut Stabilizer is a microcontroller‑based digital voltage stabilizer offering settable output (230 V) with on‑load tap‑change switch, digital metering (input/output volts), and over 99% efficiency. It maintains nil harmonic distortion (sine‑wave output), supports capacities from 2 kVA to 10 kVA (expandable), and features auto cut‑off at the preset voltage with auto‑reset even 1 V below the setpoint. Protection includes a pre‑buzzer alarm ~5 V before cut‑off to allow manual intervention. Extra features include complete surge suppression, power factor improvement circuitry, isolated control circuits, and industrial buck‑boost principle design.",
+  "sku": "AUTOCUT-PTK",
+  "rating": null,
+  "reviewCount": null,
+  "isNew": false,
+  "isBestseller": false,
+  "isOnSale": false,
+  "images": [
+    {
+      "url": "/assets/images/DigitalVoltageStabilizer/AutoCut.jpeg",
+      "alt": "Autocut Stabilizer – Front View"
+    },
+    {
+      "url": "/assets/images/DigitalVoltageStabilizer/AutoCut.jpeg",
+      "alt": "Autocut Stabilizer – Front View"
+    }
+  ],
+  "features": [
+    "Settable 230 V output via on‑load tap‑change switch",
+    "Digital metering for input and output voltage",
+    "Efficiency >99%",
+    "Nil harmonic distortion – true sine‑wave output",
+    "Capacities from 2 kVA to 10 kVA (expandable)",
+    "Auto cut‑off at preset voltage with auto‑reset",
+    "Pre‑buzzer alarm ~5 V before shutdown",
+    "Complete surge suppression",
+    "Power factor improvement circuitry",
+    "Control circuitry isolated from output",
+    "Buck‑boost principle design"
+  ],
+  "applicationAreas": [
+    "Industrial machinery",
+    "Commercial equipment",
+    "Laboratory and precision instruments",
+    "Critical infrastructure requiring stable voltage"
+  ],
+  "specifications": {
+    "Input Voltage": "100–300 V (customizable)",
+    "Output Voltage": "Settable – typically 230 V",
+    "Capacity Range": "2 kVA to 10 kVA (higher on demand)",
+    "Efficiency": ">99%",
+    "Harmonic Distortion": "Nil (sine‑wave)",
+    "Overload Capacity": "120% for 60 seconds",
+    "Protection": "Auto cut‑off + auto reset",
+    "Pre‑Buzzer Alarm": "≈5 V before cut‑off",
+    "Control": "Microcontroller‑based digital IC",
+    "Design Principle": "Buck‑boost with isolated control circuitry"
+  },
+  "warranty": {
+    "period": "",
+    "type": "",
+    "coverage": ""
+  },
+  "reviews": []
+},
+  //Digital Voltage Stabilizer
+{
+  "id": "dvs1",
+  "name": "Digital Voltage Stabilizer",
+  "price": "",
+  "image": "/assets/images/DigitalVoltageStabilizer/DigitalStabilizerFront.jpeg",
+  "category": "Digital Voltage Stabilizer",
+  "slug": "digital-voltage-stabilizer",
+  "description": "Solid‑state digital power conditioner with zero‑crossing technology, compact design, high efficiency and power‑saving features.",
+  "fullDescription": "The PRO‑TEK Advanced Digital Voltage Stabilizer series introduces a sleek, solid‑state design using digital power conditioners with zero‑crossing technology. Based on thyristors/SSR, these stabilizers are lightweight, compact, and energy efficient, making them suitable for all types of electrical loads. Features include complete surge suppression, power‑factor improvement circuitry, isolated control, buck‑boost principle, and microcontroller‑based programmable sensing, ensuring reliable performance and low harmonic distortion.",
+  "sku": "DVS-PTK",
+  "rating": null,
+  "reviewCount": null,
+  "isNew": false,
+  "isBestseller": false,
+  "isOnSale": false,
+  "images": [
+    {
+      "url": "/assets/images/DigitalVoltageStabilizer/DigitalStabilizerFront.jpeg",
+      "alt": "Digital Voltage Stabilizer – Front View"
+    },
+    {
+      "url": "/assets/images/DigitalVoltageStabilizer/DigitalStabilizerBack.jpeg",
+      "alt": "Digital Voltage Stabilizer – Back View"
+    }
+  ],
+  "features": [
+    "Solid‑state thyristors/SSR with zero‑crossing switching",
+    "Complete surge suppression",
+    "Power‑factor improvement circuitry",
+    "Isolated control circuits",
+    "Buck‑boost principle design",
+    "Compact and lightweight",
+    "High efficiency with power saving",
+    "Microcontroller‑based programmable sensing",
+    "Nil harmonic distortion – sine‑wave output"
+  ],
+  "applicationAreas": [
+    "Industrial control systems",
+    "Telecom and data centers",
+    "Laboratory & precision instruments",
+    "Commercial and residential critical loads"
+  ],
+  "specifications": {
+    "Switching Technology": "Zero‑cross thyristor/SSR",
+    "Control": "Microcontroller‑based digital IC",
+    "Surge Protection": "Integrated complete suppression",
+    "Power Factor": "Improvement circuitry included",
+    "Design Principle": "Buck‑boost",
+    "Harmonic Distortion": "Nil (sine‑wave)",
+    "Efficiency": "High, power‑saving"
+  },
+  "warranty": {
+    "period": "",
+    "type": "",
+    "coverage": ""
+  },
+  "reviews": []
+},
+
+//--------------------------------------Digital Step Stabilizer--------------------------------------
+//Wall Mount Regular
+{
+  "id": "wmstb2",
+  "name": "Wall Mount Regular Stabilizer",
+  "price": "",
+  "image": "/assets/images/DigitalStepStabilizer/WallMountRegular.jpeg",
+  "category": "Digital Voltage Stabilizer",
+  "slug": "wall-mount-regular",
+  "description": "Compact wall-mounted digital stabilizer with auto cut-off and surge protection for essential appliances.",
+  "fullDescription": "Pro_Tek’s Wall Mount Regular Stabilizer is a reliable and affordable solution for safeguarding appliances from voltage fluctuations. Built for vertical wall installation, this stabilizer ensures automatic voltage correction using solid-state circuitry. With built-in protection against over-voltage, under-voltage, short circuit, and spikes, it is ideal for protecting TVs, refrigerators, and basic electronics in residential and commercial environments. The unit is lightweight, easy to mount, and operates silently without any moving parts.",
+  "sku": "WMR-STB-PTK",
+  "rating": 4.4,
+  "reviewCount": 36,
+  "isNew": false,
+  "isBestseller": true,
+  "isOnSale": false,
+  "images": [
+    {
+      "url": "/assets/images/DigitalStepStabilizer/WallMountRegular.jpeg",
+      "alt": "Wall Mount Regular Stabilizer – Front View"
+    }
+  ],
+  "features": [
+    "Wall-mountable compact stabilizer design",
+    "Automatic voltage correction via solid-state relay",
+    "Auto cut-off on under/over-voltage conditions",
+    "Surge and spike suppression circuit",
+    "Overload and short-circuit protection",
+    "LED indicators for power and protection status",
+    "Silent operation with zero moving parts",
+    "Designed for lightweight residential electronics"
+  ],
+  "applicationAreas": [
+    "LED televisions and set-top boxes",
+    "Refrigerators and single-door coolers",
+    "Home and office routers",
+    "Billing terminals and small POS machines",
+    "Fans and light fixtures with voltage sensitivity"
+  ],
+  "specifications": {
+    "Technology": "Solid-state voltage correction",
+    "Input Voltage Range": "160–280 V (typical)",
+    "Output Voltage": "230 V ±5%",
+    "Indicators": "LEDs for mains and cut-off conditions",
+    "Protection": "High/low voltage cut-off, surge, short circuit",
+    "Form Factor": "Vertical wall-mountable casing",
+    "Cooling": "Natural convection – fanless",
+    "Reset Type": "Auto-reset after safe voltage restoration"
+  },
+  "warranty": {
+    "period": "2-Year",
+    "type": "Limited Warranty",
+    "coverage": "Protects stabilizer PCB, internal transformer, and relay mechanism. Physical or installation-related damages not covered."
+  },
+  "reviews": [
+    {
+      "author": "Sonal Patel",
+      "date": "2024-01-30",
+      "rating": 4.5,
+      "comment": "Simple, compact, and reliable—perfect for my TV.",
+      "verifiedPurchase": true
+    },
+    {
+      "author": "Ramesh Iyer",
+      "date": "2023-10-19",
+      "rating": 4.4,
+      "comment": "Works well during voltage dips. No issues so far.",
+      "verifiedPurchase": true
+    },
+    {
+      "author": "Sneha Deshmukh",
+      "date": "2023-08-07",
+      "rating": 4.3,
+      "comment": "Small but effective. Neatly installed in my bedroom.",
+      "verifiedPurchase": true
+    }
+  ]
+},
+
+//Wall Mount Premium 
+{
+  "id": "wmstb1",
+  "name": "Wall Mount Premium Stabilizer",
+  "price": "",
+  "image": "assets/images/DigitalStepStabilizer/WallMountPremium.png",
+  "category": "Digital Voltage Stabilizer",
+  "slug": "wall-mount-premium-stabilizer",
+  "description": "Premium wall-mount digital stabilizer with LCD display, auto-reset, and precise voltage regulation.",
+  "fullDescription": "Pro_Tek's Wall Mount Premium Stabilizer is a digitally controlled voltage regulator designed for home and office appliances. Engineered for wall-mounted deployment, it combines advanced voltage sensing, front-panel LCD for real-time voltage feedback, and seamless auto-reset after voltage normalization. The stabilizer offers wide input range compatibility and built-in protections against high/low voltage, overload, and surges. Ideal for refrigerators, air conditioners, LED TVs, and sensitive equipment that demand consistent voltage.",
+  "sku": "WMP-STB-PTK",
+  "rating": 4.6,
+  "reviewCount": 40,
+  "isNew": true,
+  "isBestseller": true,
+  "isOnSale": false,
+  "images": [
+    {
+      "url": "assets/images/DigitalStepStabilizer/WallMountPremium.png",
+      "alt": "Wall Mount Premium Stabilizer – Front View"
+    }
+  ],
+  "features": [
+    "Wall-mount design for space-saving installation",
+    "Advanced microcontroller-based voltage regulation",
+    "LCD panel for input/output voltage and system status",
+    "Wide input voltage handling range (e.g., 160–280 V)",
+    "Auto-cut off on unsafe voltage with auto-reset",
+    "Built-in protection against surges, spikes, overload",
+    "Silent operation with no moving parts",
+    "Elegant design suitable for home interiors"
+  ],
+  "applicationAreas": [
+    "LED TVs and home theaters",
+    "Refrigerators and deep freezers",
+    "Split and window air conditioners",
+    "POS and billing systems",
+    "Residential and office electronics"
+  ],
+  "specifications": {
+    "Technology": "Digital microcontroller-based stabilization",
+    "Input Voltage Range": "160–280 V (typical)",
+    "Output Voltage": "230 V ±5%",
+    "Display": "Front-panel LCD with voltage indicators",
+    "Protection": "High/low voltage cutoff, surge, overload",
+    "Form Factor": "Wall-mount, compact body",
+    "Cooling": "Natural air-cooled (fanless)",
+    "Reset Type": "Automatic reset after voltage normalization"
+  },
+  "warranty": {
+    "period": "2-Year",
+    "type": "Comprehensive Warranty",
+    "coverage": "Covers controller board, transformer, and all internal electronics; physical damage and installation faults excluded."
+  },
+  "reviews": [
+    {
+      "author": "Neeraj Sharma",
+      "date": "2024-03-25",
+      "rating": 4.7,
+      "comment": "Stabilizes my AC perfectly even during major voltage swings.",
+      "verifiedPurchase": true
+    },
+    {
+      "author": "Tanvi Jain",
+      "date": "2023-12-02",
+      "rating": 4.5,
+      "comment": "The LCD is helpful and the performance has been reliable.",
+      "verifiedPurchase": true
+    },
+    {
+      "author": "Pratik Rao",
+      "date": "2023-09-10",
+      "rating": 4.6,
+      "comment": "Neatly installed in my living room—works silently and efficiently.",
+      "verifiedPurchase": true
+    }
+  ]
+}
 
 
 ];

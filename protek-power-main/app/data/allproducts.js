@@ -4,34 +4,34 @@ export const products = [
     id: 's1',
     name: 'Single Phase Servo Stabilizer 5KVA',
     price: 10000,
-    image: '/assets/images/power-bank.jpeg',
+    image: '/assets/images/ServoVoltageStabilizer/1PhaseStabilizerFront.jpeg',
     category: 'Servo Voltage Stabilizer',
-    slug: 'single-phase-servo-stabilizer',
+    slug: 'single-phase-servo-stabilizer-5KVA',
     description: 'For CNC machines, textile, printing, packaging, medical instruments, A/C, labs, residences.'
   },
    {
     id: 's2',
     name: 'Single Phase Servo Stabilizer 10KVA',
     price: 10000,
-    image: '/assets/images/power-bank.jpeg',
+    image: '/assets/images/ServoVoltageStabilizer/10KVAStabilizerFront.jpeg',
     category: 'Servo Voltage Stabilizer',
-    slug: 'single-phase-servo-stabilizer',
+    slug: 'single-phase-servo-stabilizer-10KVA',
     description: 'For CNC machines, textile, printing, packaging, medical instruments, A/C, labs, residences.'
   },
   {
     id: 's3',
     name: 'Three Phase Servo Stabilizer (Air‑cooled) 30KVA+',
     price: 10000,
-    image: '',
+    image: '/assets/images/ServoVoltageStabilizer/30KVAStabilizerFront.jpeg',
     category: 'Servo Voltage Stabilizer',
-    slug: 'three-phase-servo-stabilizer',
+    slug: 'three-phase-servo-stabilizer-30KVA',
     description: 'CNC Machine Tool, Textile Machines, Printing Machines'
   },
     {
     id: 's4',
     name: 'Three Phase Servo Stabilizer (Oil-cooled)',
     price: 10000,
-    image: '',
+    image: '/assets/images/ServoVoltageStabilizer/OilCooled.jpeg',
     category: 'Servo Voltage Stabilizer',
     slug: 'three-phase-servo-stabilizer-oil-cooled',
     description: 'Automatic High / Low Voltage Cut-off. Overload & Short-circuit protection'
@@ -40,7 +40,7 @@ export const products = [
     id: 's5',
     name: 'Jindal AVC',
     price: 10000,
-    image: '',
+    image: '/assets/images/ServoVoltageStabilizer/JindalAVC.png',
     category: 'Servo Voltage Stabilizer',
     slug: 'jindal-avc',
     description: 'The basic purpose of AVC is to maintain the desired voltage and to reduce'
@@ -53,16 +53,16 @@ export const products = [
     id: 'u1',
     name: 'Line Interactive UPS',
     price: 0,
-    image: '',
+    image: '/assets/images/ups/lineInteractive.jpeg',
     category: 'UPS Systems',
     slug: 'line-interactive-ups',
     description: 'Pulse‑width modulation, input 180–285 V, output 230 V ±6%, backup ~20 min, 12/24/36 V batteries.'
   },
   {
     id: 'u2',
-    name: 'ON LINE',
+    name: 'ON LINE UPS',
     price: 0,
-    image: '',
+    image: '/assets/images/ups/OnlineUPS.png',
     category: 'UPS Systems',
     slug: 'online-ups',
     description: 'Double conversion using HEXFET/IGBT providing precise'
@@ -71,7 +71,7 @@ export const products = [
     id: 'u3',
     name: 'High‑Frequency Online UPS',
     price: 0,
-    image: '',
+    image: '/assets/images/UPS/HighFreqOnlineUps.png',
     category: 'UPS Systems',
     slug: 'high-frequency-online-ups',
     description: 'Topology : Off Line UPS, Line Interactive UPS'
@@ -82,9 +82,9 @@ export const products = [
 
    {
     id: 'd1',
-    name: 'Digital',
+    name: 'Digital Voltage Stabilizer',
     price: 0,
-    image: '',
+    image: '/assets/images/DigitalVoltageStabilizer/DigitalStabilizerFront.jpeg',
     category: 'Digital Voltage Stabilizer',
     slug: 'digital-voltage-stabilizer',
     description: 'Embedded micro‑controller circuits with advanced features.'
@@ -93,7 +93,7 @@ export const products = [
     id: 'd2',
     name: 'Autocut Digital Voltage Stabilizer',
     price: 0,
-    image: '',
+    image: '/assets/images/DigitalVoltageStabilizer/AutoCut.jpeg',
     category: 'Digital Voltage Stabilizer',
     slug: 'autocut-digital-voltage-stabilizer',
     description: 'Input 100–300 V, set‑point cutoff, digital metering, pre‑buzzer alarm.'
@@ -102,7 +102,7 @@ export const products = [
     id: 'd3',
     name: 'Intelligent Digital Voltage Stabilizer',
     price: 0,
-    image: '',
+    image: '/assets/images/DigitalVoltageStabilizer/DigitalStabilizerFront.jpeg',
     category: 'Digital Voltage Stabilizer',
     slug: 'intelligent-digital-voltage-stabilizer',
     description: 'Embedded micro‑controller circuits with advanced features.'
@@ -200,25 +200,25 @@ export const products = [
     id: 'ds1',
     name: 'Wall Mount Premium',
     price: 0,
-    image: '',
+    image: '/assets/images/DigitalStepStabilizer/WallMountPremium.png',
     category: 'Digital Step Stabilizer',
-    slug: 'digital-step-stabilizer',
+    slug: 'wall-mount-premium',
     description: 'Air conditioning, Household Appliance, Office Equipment, Versatile Application'
   },
     {
     id: 'ds2',
     name: 'Wall mount Regular',
     price: 0,
-    image: '',
+    image: '/assets/images/DigitalStepStabilizer/WallMountRegular.jpeg',
     category: 'Digital Step Stabilizer',
-    slug: 'wall-mount-regular-digital-step-stabilizer',
+    slug: 'wall-mount-regular',
     description: 'Air conditioning, Household Appliance, Office Equipment, Versatile Application'
   },
     {
     id: 'ds3',
     name: 'Omni Power Conditioner',
     price: 0,
-    image: '',
+    image: '/assets/images/DigitalStepStabilizer/OmniPowerConditioner.jpeg',
     category: 'Digital Step Stabilizer',
     slug: 'omni-power-conditioner-digital-step-stabilizer',
     description: 'Automatic High / Low Voltage Cut-off. Overload & Short-circuit protection.'
