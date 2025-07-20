@@ -38,19 +38,20 @@ const styles = {
         }
     },
     imageContainer: {
-        position: 'relative',
-        paddingBottom: '60%',
-        overflow: 'hidden',
-    },
-    image: {
-        position: 'absolute',
-        top: 0,
-        left: 0,
         width: '100%',
-        height: '100%',
-        objectFit: 'cover',
-        transition: 'transform 0.5s ease',
-    },
+        height: '180px',
+        overflow: 'hidden',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        },
+    image: {
+        width: '100%',
+        height: 'auto',
+        objectFit: 'contain',
+        display: 'block',
+        },
+
     content: {
         padding: '20px',
         display: 'flex',

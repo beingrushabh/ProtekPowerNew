@@ -6,7 +6,7 @@ export const products = [
     id: 'ss1',
     name: 'Single Phase Servo Stabilizer 5KVA',
     price: "25000", // Price not listed — you can add once known
-    image: '/assets/images/ServoVoltageStabilizer/1PhaseStabilizerFront.jpeg', // Replace with actual image path
+    image: '/assets/images/ServoVoltageStabilizer/1PhaseStabilizerFront.png', // Replace with actual image path
     category: 'Servo Voltage Stabilizer',
     slug: 'single-phase-servo-stabilizer-5KVA',
     description: 'Stable 230 V output with fast correction for sensitive equipment.',
@@ -18,7 +18,7 @@ export const products = [
     isBestseller: true,
     isOnSale: true,
     images: [
-      { url: '/assets/images/ServoVoltageStabilizer/1PhaseStabilizerFront.jpeg', alt: 'Single Phase Servo Stabilizer – Front View' }
+      { url: '/assets/images/ServoVoltageStabilizer/1PhaseStabilizerFront.png', alt: 'Single Phase Servo Stabilizer – Front View' }
       // Add more views if available
     ],
     features: [
@@ -200,7 +200,7 @@ export const products = [
     id: 'ocs1',
     name: 'Oil-Cooled Three Phase Servo Stabilizer',
     price: "20000", // Add price when available
-    image: '/assets/images/ServoVoltageStabilizer/OilCooled.jpeg',
+    image: '/assets/images/ServoVoltageStabilizer/OilCooled.png',
     category: 'Servo Voltage Stabilizer',
     slug: 'three-phase-servo-stabilizer-oil-cooled',
     description: 'Robust oil-cooled stabilizer for high‑capacity three‑phase systems, 415 V ±1% output.',
@@ -212,7 +212,7 @@ export const products = [
     isBestseller: true,
     isOnSale: true,
     images: [
-      { url: '/assets/images/ServoVoltageStabilizer/OilCooled.jpeg', alt: 'Oil-Cooled Servo Stabilizer – Front View' }
+      { url: '/assets/images/ServoVoltageStabilizer/OilCooled.png', alt: 'Oil-Cooled Servo Stabilizer – Front View' }
     ],
     features: [
       'Stable 415 V ±1% output up to 70 V/sec correction',

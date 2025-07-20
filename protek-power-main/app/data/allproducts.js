@@ -4,7 +4,7 @@ export const products = [
     id: 's1',
     name: 'Single Phase Servo Stabilizer 5KVA',
     price: 10000,
-    image: '/assets/images/ServoVoltageStabilizer/1PhaseStabilizerFront.jpeg',
+    image: '/assets/images/ServoVoltageStabilizer/1PhaseStabilizerFront.png',
     category: 'Servo Voltage Stabilizer',
     slug: 'single-phase-servo-stabilizer-5KVA',
     description: 'For CNC machines, textile, printing, packaging, medical instruments, A/C, labs, residences.'
@@ -31,7 +31,7 @@ export const products = [
     id: 's4',
     name: 'Three Phase Servo Stabilizer (Oil-cooled)',
     price: 10000,
-    image: '/assets/images/ServoVoltageStabilizer/OilCooled.jpeg',
+    image: '/assets/images/ServoVoltageStabilizer/OilCooled.png',
     category: 'Servo Voltage Stabilizer',
     slug: 'three-phase-servo-stabilizer-oil-cooled',
     description: 'Automatic High / Low Voltage Cut-off. Overload & Short-circuit protection'

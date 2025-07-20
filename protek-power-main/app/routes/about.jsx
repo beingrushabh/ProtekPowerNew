@@ -196,14 +196,6 @@ export default function About() {
                                 <h3 style={styles.memberName}>Mr. Yogesh M. Agrawal</h3>
                                 <p style={styles.memberTitle}>Chief Technology Officer</p>
                             </div>
-
-                            <div style={styles.teamMember}>
-                                <div style={styles.memberImageContainer}>
-                                    <div style={styles.memberImage}></div>
-                                </div>
-                                <h3 style={styles.memberName}>Amit Kumar</h3>
-                                <p style={styles.memberTitle}>Director of Operations</p>
-                            </div>
                         </div>
                     </div>
                 </section>
@@ -380,7 +372,7 @@ const styles = {
     },
     valuesGrid: {
         display: 'grid',
-        gridTemplateColumns: '1fr',
+        gridTemplateColumns: 'repeat(4, 1fr)', // assuming 4 items
         gap: '30px',
         '@media (min-width: 576px)': {
             gridTemplateColumns: '1fr 1fr',
@@ -518,7 +510,7 @@ const styles = {
     },
     teamGrid: {
         display: 'grid',
-        gridTemplateColumns: '1fr',
+        gridTemplateColumns: 'repeat(2, 1fr)', // assuming 3 team members
         gap: '40px',
         '@media (min-width: 768px)': {
             gridTemplateColumns: '1fr 1fr 1fr',
