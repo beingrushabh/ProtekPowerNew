@@ -1039,6 +1039,70 @@ export const products = [
   },
   "reviews": []
 },
+
+//-------------------------------Converter----------------------------------
+
+{
+  "id": "srvctrl1",
+  "name": "110 Volts Converter",
+  "price": "2000",
+  "image": "/assets/images/Converter/110VoltsConverter.png",
+  "category": "Converter",
+  "slug": "110-volts-converter",
+  "description": "Microcontroller-based controller for servo voltage stabilizers, offering plug-and-play installation, precision regulation, and smart protection.",
+  "fullDescription": "Pro_Tek’s 110 Volts Converter is an all-in-one microcontroller module designed for high-precision voltage regulation in servo stabilizers. It supports effortless plug-and-play setup with just 5–7 connections, minimal external wiring via a built-in sensing transformer, and a front-panel Auto/Manual switch. The controller delivers intelligent voltage regulation with password-protected settings, adjustable correction speed, and highly accurate voltage displays. Built-in protections include high/low cut-off, adjustable turn-on/off delays, and ±1% regulation tolerance—ideal for demanding industrial environments.",
+  "sku": "SRVCTRL-PTK",
+  "rating": null,
+  "reviewCount": null,
+  "isNew": false,
+  "isBestseller": false,
+  "isOnSale": false,
+  "images": [
+    {
+      "url": "/assets/images/Converter/110VoltsConverter.png",
+      "alt": "110 Volts Converter – Front View"
+    },
+    {
+      "url": "/assets/images/Converter/110VoltsConverterBack.png",
+      "alt": "110 Volts Converter – Front View"
+    }
+  ],
+  "features": [
+    "Plug & Play design with 5–7 connections",
+    "Minimal external wiring via built-in sensing transformer",
+    "Password-protected voltage regulation settings",
+    "Front-panel Auto/Manual switch",
+    "Adjustable correction speed for motor/variac size",
+    "Calibratable high-accuracy input & output voltage display",
+    "High and low voltage cut-off protection",
+    "Output set voltage with ±1% regulation tolerance",
+    "Adjustable turn-on and turn-off delays"
+  ],
+  "applicationAreas": [
+    "Servo voltage stabilizers",
+    "CNC machines",
+    "Textile machinery",
+    "Printing machines"
+  ],
+  "specifications": {
+    "Connections": "5–7 plug‑and‑play terminals",
+    "Voltage Regulation": "±1% tolerance with adjustable set point",
+    "Correction Speed": "User-adjustable for motor/variac matching",
+    "Display Accuracy": "Calibratable input/output voltage meter",
+    "Protection": "High/low cut‑off, timing delays on turn‑on/off",
+    "Control Modes": "Manual and Auto via front-panel switch",
+    "Settings Security": "Password protected"
+  },
+  "warranty": {
+    "period": "1‑Year",
+    "type": "Standard Warranty",
+    "coverage": "Covers controller board and microcontroller; excludes wiring and installation errors."
+  },
+  "reviews": []
+},
+
+
+
 //--------------------------------Controller----------------------------------
 //Servo Stabilizer Controller
 {
@@ -1171,7 +1235,12 @@ export const products = [
     {
       "url": "/assets/images/IsolationTransformer/IsolationTransformer.png",
       "alt": "Isolation Transformer – Front View"
+    },
+    {
+      "url": "/assets/images/IsolationTransformer/IsolationTransformerBack.png",
+      "alt": "Isolation Transformer – Front View"
     }
+
   ],
   "features": [
     "Primary-secondary galvanic isolation",

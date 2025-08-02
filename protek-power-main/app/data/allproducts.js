@@ -112,7 +112,7 @@ export const products = [
 // Constant Voltage Transformer
 
   {
-    id: 'c1',
+    id: 'cv1',
     name: 'Single/Three Phase CVT',
     price: 0,
     image: '/assets/images/cvt/cvt_front.jpeg',
@@ -127,15 +127,23 @@ export const products = [
   {
     id: 'b1',
     name: 'SMPS Battery Charger',
-    price: 0,
+    price: 3000,
     image: '/assets/images/BatteryCharger/BatteryCharger.png',
     category: 'Battery Chargers',
     slug: 'smps-battery-charger',
     description: 'On‑board EMI/RMI filter, PWM compact design, float/smooth charging, >75% efficiency.'
   },
 
-
-
+//Converter
+  {
+    id: 'c1',
+    name: '110 Volts Converter',
+    price: 2000,
+    image: '/assets/images/Converter/110VoltsConverter.png',
+    category: 'Converter',
+    slug: '110-volts-converter',
+    description: '230Volts to 110Volts Converter, 50Hz to 60Hz'
+  },
 
 // Isolation Transformer
 

@@ -27,7 +27,13 @@ export const productCategories = [
         description: 'Consistent voltage supply for critical devices',
         image: '/assets/images/categories/constant-voltage-transformer.jpg'
     },
-   
+   {
+        id: 'converter',
+        name: 'Converter',
+        slug: 'converter',
+        description: 'Voltage conversion solutions',
+        image: '/assets/images/categories/converter.jpg'
+    },
     {
         id: 'battery-chargers',
         name: 'Battery Chargers',
@@ -78,5 +84,11 @@ export const productCategoriesHome = [
         description: 'Digital precision for voltage control',
         image: '/assets/images/ups/HighFreqOnlineUps.png'
     },
+//    {
+//         link: '/products/Converter',
+//         title: '110 Volts Converter',
+//         description: '230Volts to 110Volts Converter, 50Hz to 60Hz',
+//         image: '/assets/images/Converter/110VoltsConverter.png'
+//     },
 
 ];

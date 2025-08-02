@@ -26,6 +26,15 @@ export const topProducts = [
     slug: 'line-interactive-ups',
     description: 'Pulse‑width modulation, input 180–285 V, output 230 V ±6%, backup ~20 min, 12/24/36 V batteries.'
   },
+   {
+    id: 'c1',
+    name: '110 Volts Converter',
+    price: 2000,
+    image: '/assets/images/Converter/110VoltsConverter.png',
+    category: 'Converter',
+    slug: '110-volts-converter',
+    description: '230Volts to 110Volts Converter, 50Hz to 60Hz'
+  },
   {
     id: 'd1',
     name: 'Digital Voltage Stabilizer',

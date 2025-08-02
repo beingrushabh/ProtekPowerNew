@@ -375,7 +375,7 @@ const styles = {
         gridTemplateColumns: 'repeat(4, 1fr)', // assuming 4 items
         gap: '30px',
         '@media (min-width: 576px)': {
-            gridTemplateColumns: '1fr 1fr',
+            gridTemplateColumns: '2fr 1fr',
         },
         '@media (min-width: 992px)': {
             gridTemplateColumns: '1fr 1fr 1fr 1fr',
