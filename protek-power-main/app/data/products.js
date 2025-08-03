@@ -656,7 +656,7 @@ export const products = [
     specifications: {
       'Input Voltage': '180–280 V AC',
       'Phase': 'Single-phase / Three-phase',
-      'Output Voltage': 'Constant regulated output',
+      'Output Voltage': 'Constant 230V(Typical) output',
       'Regulation Time': 'Within 2 cycles',
       'Distortion': '≤6% THD',
       'Overload Capacity': '120% for 3 minutes',
@@ -923,32 +923,33 @@ export const products = [
   "features": [
     "Wall-mount design for space-saving installation",
     "Advanced microcontroller-based voltage regulation",
-    "LCD panel for input/output voltage and system status",
-    "Wide input voltage handling range (e.g., 160–280 V)",
+    "LED panel for input/output voltage and system status",
+    "Wide input voltage handling range (140V-290V, 170V-290V)",
     "Auto-cut off on unsafe voltage with auto-reset",
     "Built-in protection against surges, spikes, overload",
-    "Silent operation with no moving parts",
+    "Silent operation with relay switching at zero crossing of sine wave",
     "Elegant design suitable for home interiors"
   ],
   "applicationAreas": [
+    "CCTV Systems",
     "LED TVs and home theaters",
-    "Refrigerators and deep freezers",
+    "Refrigerators",
     "Split and window air conditioners",
     "POS and billing systems",
     "Residential and office electronics"
   ],
   "specifications": {
     "Technology": "Digital microcontroller-based stabilization",
-    "Input Voltage Range": "160–280 V (typical)",
-    "Output Voltage": "230 V ±5%",
-    "Display": "Front-panel LCD with voltage indicators",
+    "Input Voltage Range": "140V-290V, 170V-290V",
+    "Output Voltage": "230 V (Typical)",
+    "Display": "Front-panel LED with voltage indicators",
     "Protection": "High/low voltage cutoff, surge, overload",
     "Form Factor": "Wall-mount, compact body",
     "Cooling": "Natural air-cooled (fanless)",
     "Reset Type": "Automatic reset after voltage normalization"
   },
   "warranty": {
-    "period": "2-Year",
+    "period": "1-Year",
     "type": "Comprehensive Warranty",
     "coverage": "Covers controller board, transformer, and all internal electronics; physical damage and installation faults excluded."
   },
@@ -1033,7 +1034,7 @@ export const products = [
     "Optional Protections": "Reverse battery, potential-free relay contact"
   },
   "warranty": {
-    "period": "2‑Year",
+    "period": "1‑Year",
     "type": "Limited Warranty",
     "coverage": "Covers PCB and SMPS components; excludes connector damage and misuse."
   },
