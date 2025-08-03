@@ -22,12 +22,12 @@ export const products = [
       // Add more views if available
     ],
     features: [
-      'Maintains 230 V ± 1% output despite 180–280 V input',
+      'Maintains 230 V ± 1% output despite 180–280 V input, other range availabe on request',
       'Fast correction at 35 V/sec',
-      'Over 95% efficiency',
+      'Upto 98% efficiency',
       'Supports 120% overload for up to 60 sec',
-      'Minimal harmonic distortion (nil)',
-      'Built-in soft-start, surge suppression, and MCB short-circuit protection'
+      'No harmonic distortion',
+      'Built-in soft-start with Low/High (Optional), surge suppression, and MCB short-circuit protection'
     ],
     applicationAreas: [
       'CNC & textile machines',
@@ -38,11 +38,11 @@ export const products = [
       'Residential equipment protection'
     ],
     specifications: {
-      'Input Voltage': '180–280 V AC',
+      'Input Voltage': '180–280 V AC, other range available on request',
       'Output Voltage': '230 V AC ± 1%',
       'Correction Rate': '35 V/sec',
       'Frequency Range': '47–53 Hz',
-      'Efficiency': '>95%',
+      'Efficiency': 'Upto 98%',
       'Capacity': '1 kVA–20 kVA',
       'Overload Capacity': '120% for 60 seconds',
       'Harmonic Distortion': 'Nil',
@@ -50,7 +50,7 @@ export const products = [
       'Protection Features': 'Soft turn-on delay, low/high-voltage cut-off (optional), surge suppression, MCB'
     },
     warranty: {
-        period: '3-Year',
+        period: '1-Year',
         type: 'Comprehensive',
         coverage: 'Includes all electronic components and workmanship defects. Extended warranty available.'
     },
@@ -79,12 +79,12 @@ export const products = [
       // Add more views if available
     ],
     features: [
-      'Maintains 230 V ± 1% output despite 180–280 V input',
+      'Maintains 230 V ± 1% output despite 180–280 V input, other range available on request',
       'Fast correction at 35 V/sec',
-      'Over 95% efficiency',
+      'Upto 98% efficiency',
       'Supports 120% overload for up to 60 sec',
-      'Minimal harmonic distortion (nil)',
-      'Built-in soft-start, surge suppression, and MCB short-circuit protection'
+      'No harmonic distortion',
+      'Built-in soft-start with Low/High (Optional), surge suppression, and MCB short-circuit protection'
     ],
     applicationAreas: [
       'CNC & textile machines',
@@ -95,11 +95,11 @@ export const products = [
       'Residential equipment protection'
     ],
     specifications: {
-      'Input Voltage': '180–280 V AC',
+      'Input Voltage': '180–280 V AC, other range available on request',
       'Output Voltage': '230 V AC ± 1%',
       'Correction Rate': '35 V/sec',
       'Frequency Range': '47–53 Hz',
-      'Efficiency': '>95%',
+      'Efficiency': 'Upto 98%',
       'Capacity': '1 kVA–20 kVA',
       'Overload Capacity': '120% for 60 seconds',
       'Harmonic Distortion': 'Nil',
@@ -107,7 +107,7 @@ export const products = [
       'Protection Features': 'Soft turn-on delay, low/high-voltage cut-off (optional), surge suppression, MCB'
     },
     warranty: {
-        period: '3-Year',
+        period: '1-Year',
         type: 'Comprehensive',
         coverage: 'Includes all electronic components and workmanship defects. Extended warranty available.'
     },
@@ -137,13 +137,13 @@ export const products = [
        { url: '/assets/images/ServoVoltageStabilizer/30KVAStabilizerBack.jpeg', alt: 'Three Phase Servo Stabilizer – Back View' }
     ],
     features: [
-      'Maintains 400 V ±1% output from 340–480 V input',
+      'Maintains 400 V ±1% output from 340–480 V input, other range available on request',
       'Fast correction rate: 35 V/sec',
-      'High efficiency (>97%)',
+      'High efficiency (Upto 98%)',
       'Supports 120% overload for 60 sec',
       'No harmonic distortion',
       'Input/output voltage metering',
-      'Full protection: soft start, high/low cutoff, surge suppression, MCB short-circuit protection'
+      'Full protection: soft start, high/low cutoff(Optional), surge suppression, MCB short-circuit protection'
     ],
     applicationAreas: [
       'CNC machine tools',
@@ -155,19 +155,19 @@ export const products = [
       'Residential equipment protection'
     ],
     specifications: {
-      'Input Voltage': '340–480 V AC (customizable)',
+      'Input Voltage': '340–480 V AC (customizable), other range available on request',
       'Output Voltage': '400 V AC ± 1%',
       'Correction Rate': '35 V/sec',
       'Frequency Range': '47–53 Hz',
-      'Efficiency': '>97%',
+      'Efficiency': 'Upto 98%',
       'Capacity': '3–60 kVA',
       'Overload Capacity': '120% for 60 seconds',
       'Harmonic Distortion': 'Nil',
       'Metering': 'Input & output voltage',
-      'Protection Features': 'Soft turn-on, adjustable high/low cutoff, surge suppression, MCB short‑circuit protection'
+      'Protection Features': 'Soft turn-on, adjustable high/low cutoff(Optional), surge suppression, MCB short‑circuit protection'
     },
     warranty: {
-      period: '3-Year',
+      period: '1-Year',
       type: 'Comprehensive',
       coverage: 'Includes all electronic components and workmanship defects. Extended warranty available.'
     },
@@ -215,14 +215,14 @@ export const products = [
       { url: '/assets/images/ServoVoltageStabilizer/OilCooled.png', alt: 'Oil-Cooled Servo Stabilizer – Front View' }
     ],
     features: [
-      'Stable 415 V ±1% output up to 70 V/sec correction',
-      'High efficiency (≥96%)',
+      'Stable 415 V ±1% output up to 70 V/sec correction, wide input range available on request',
+      'High efficiency (≥97%)',
       'Supports 10–250 kVA ratings',
       'Oil-cooled design for thermal stability',
       'Automatic high/low voltage cut-off',
       'Overload & short‑circuit protection with MCB',
       'Surge suppression and audio alarms',
-      'Soft start & single‑phasing preventer',
+      'Soft start & single‑phasing preventer(Optional)',
       'Optional ultra-isolation transformer'
     ],
     applicationAreas: [
@@ -235,19 +235,19 @@ export const products = [
       'Centralized domestic stabilization'
     ],
     specifications: {
-      'Input Voltage': '300–500 V AC (LL, 3‑phase, 4‑wire)',
+      'Input Voltage': '340–480 V AC (LL, 3‑phase, 4‑wire), wide input range available on request',
       'Output Voltage': '415 V AC ± 1%',
       'Correction Rate': 'Up to 70 V/sec',
       'Response Time': '10 ms',
-      'Efficiency': '≥96%',
+      'Efficiency': '≥97%',
       'KVA Ratings': '10–250 kVA',
       'Cooling': 'Air‑cooled up to 75 kVA; oil‑cooled above',
       'Harmonic Distortion': 'Nil',
-      'Protection': 'High/low voltage cut-off, overload, short‑circuit, surge suppression, single‑phasing preventer',
+      'Protection': 'High/low voltage cut-off (Optional), overload, short‑circuit, surge suppression, single‑phasing preventer',
       'Optional Features': 'Line/noise suppression, isolation transformer'
     },
     warranty: {
-      period: '3-Year',
+      period: '1-Year',
       type: 'Comprehensive',
       coverage: 'Includes all electronic components and workmanship defects. Extended warranty available.'
     },
@@ -374,14 +374,13 @@ export const products = [
     "True online double-conversion with IGBT/HEXFET",
     "High-frequency design for compact size",
     "DSP microprocessor control",
-    "Unity output power factor (1.0)",
     "Zero transfer time on mains fail",
     "Wide input voltage/frequency tolerance",
-    "Active input PFC ≥ 0.99",
+    "Active input PFC ≥ 0.99 (Optional)",
     "Generator compatibility",
     "Intelligent two-/three-stage battery charging",
-    "Modular expansion & parallel redundancy",
-    "Comprehensive communication: RS232, USB, SNMP, EPO"
+    "Modular expansion & parallel redundancy (Optional)",
+    "Comprehensive communication: RS232, USB, SNMP, EPO (Optional)"
   ],
   "applicationAreas": [
     "Data centers & server rooms",
@@ -721,22 +720,20 @@ export const products = [
     }
   ],
   "features": [
-    "Settable 230 V output via on‑load tap‑change switch",
+    "Settable 230 V(Typical) output via on‑load tap‑change switch",
     "Digital metering for input and output voltage",
     "Efficiency >99%",
     "Nil harmonic distortion – true sine‑wave output",
-    "Capacities from 2 kVA to 10 kVA (expandable)",
+    "Capacities from 2 kVA to 15 kVA (expandable)",
     "Auto cut‑off at preset voltage with auto‑reset",
-    "Pre‑buzzer alarm ~5 V before shutdown",
+    "Pre‑buzzer alarm -5 V before shutdown",
     "Complete surge suppression",
-    "Power factor improvement circuitry",
     "Control circuitry isolated from output",
-    "Buck‑boost principle design"
   ],
   "applicationAreas": [
-    "Industrial machinery",
+    "DJ Audio Systems",
+    "Household requirements",
     "Commercial equipment",
-    "Laboratory and precision instruments",
     "Critical infrastructure requiring stable voltage"
   ],
   "specifications": {
@@ -789,7 +786,6 @@ export const products = [
     "Complete surge suppression",
     "Power‑factor improvement circuitry",
     "Isolated control circuits",
-    "Buck‑boost principle design",
     "Compact and lightweight",
     "High efficiency with power saving",
     "Microcontroller‑based programmable sensing",
@@ -802,13 +798,17 @@ export const products = [
     "Commercial and residential critical loads"
   ],
   "specifications": {
-    "Switching Technology": "Zero‑cross thyristor/SSR",
-    "Control": "Microcontroller‑based digital IC",
-    "Surge Protection": "Integrated complete suppression",
-    "Power Factor": "Improvement circuitry included",
-    "Design Principle": "Buck‑boost",
-    "Harmonic Distortion": "Nil (sine‑wave)",
-    "Efficiency": "High, power‑saving"
+    "Input": "180 V to 280 V",
+    "Output": "225 V ± 3% (Typical)",
+    "Correction Rate": "500 V/Sec",
+    "Response Time": "½ Cycle (10 ms)",
+    "Frequency": "47 to 53 Hz",
+    "Efficiency": "Greater than 98%",
+    "Capacity": "2 kva - 10 KVA",
+    "Over Load Capacity": "130% for 60 Sec",
+    "Harmonic Distortion": "Nil",
+    "Protection": "Soft Turn On Delay with Low Cut & High Cut, Complete Surge Suppression, High/Low Cut Output Short Circuit by MCB",
+    "Technology": "Microcontroller-based programmable digital IC sensing output voltage, giving command to isolated power circuit at zero point of sine wave"
   },
   "warranty": {
     "period": "",
@@ -816,7 +816,8 @@ export const products = [
     "coverage": ""
   },
   "reviews": []
-},
+}
+,
 
 //--------------------------------------Digital Step Stabilizer--------------------------------------
 //Wall Mount Regular
@@ -846,12 +847,11 @@ export const products = [
     "Automatic voltage correction via solid-state relay",
     "Auto cut-off on under/over-voltage conditions",
     "Surge and spike suppression circuit",
-    "Overload and short-circuit protection",
-    "LED indicators for power and protection status",
-    "Silent operation with zero moving parts",
+    "Silent operation with relay switching of zero crossing of sine wave",
     "Designed for lightweight residential electronics"
   ],
   "applicationAreas": [
+    "Airconditions and Domestic Load",
     "LED televisions and set-top boxes",
     "Refrigerators and single-door coolers",
     "Home and office routers",
@@ -860,16 +860,16 @@ export const products = [
   ],
   "specifications": {
     "Technology": "Solid-state voltage correction",
-    "Input Voltage Range": "160–280 V (typical)",
-    "Output Voltage": "230 V ±5%",
-    "Indicators": "LEDs for mains and cut-off conditions",
-    "Protection": "High/low voltage cut-off, surge, short circuit",
+    "Input Voltage Range": "wide input range (100V-290V, 140V-290V, 170V-290V)",
+    "Output Voltage": "230V (Typical)",
+    "Indicators": "Digital Display for input/output voltage, High and low during cutoff",
+    "Protection": "High/low voltage cut-off, surge",
     "Form Factor": "Vertical wall-mountable casing",
-    "Cooling": "Natural convection – fanless",
+    "Cooling": "Natural cooling",
     "Reset Type": "Auto-reset after safe voltage restoration"
   },
   "warranty": {
-    "period": "2-Year",
+    "period": "1-Year",
     "type": "Limited Warranty",
     "coverage": "Protects stabilizer PCB, internal transformer, and relay mechanism. Physical or installation-related damages not covered."
   },
