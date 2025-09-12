@@ -61,7 +61,7 @@ export const products = [
   //Single Phase Servo Stabilizer 10KVA
   {
     id: 'ss2',
-    name: 'Single Phase Servo Stabilizer 10KVA',
+    name: 'Single Phase Servo Stabilizer 7.5KVA, 10KVA',
     price: "25000", // Price not listed — you can add once known
     image: '/assets/images/ServoVoltageStabilizer/10KVAStabilizerFront.jpeg', // Replace with actual image path
     category: 'Servo Voltage Stabilizer',
@@ -75,7 +75,8 @@ export const products = [
     isBestseller: true,
     isOnSale: true,
     images: [
-      { url: '/assets/images/ServoVoltageStabilizer/10KVAStabilizerFront.jpeg', alt: 'Single Phase Servo Stabilizer – Front View' }
+      { url: '/assets/images/ServoVoltageStabilizer/10KVAStabilizerFront.jpeg', alt: 'Single Phase Servo Stabilizer – Front View' },
+      { url: '/assets/images/ServoVoltageStabilizer/10KVAStabilizerBack.png', alt: 'Single Phase Servo Stabilizer – Front View' }
       // Add more views if available
     ],
     features: [
@@ -84,7 +85,7 @@ export const products = [
       'Upto 98% efficiency',
       'Supports 120% overload for up to 60 sec',
       'No harmonic distortion',
-      'Built-in soft-start with Low/High (Optional), surge suppression, and MCB short-circuit protection'
+      'Built-in soft-start with Low/High Voltage (Optional), surge suppression, and MCB short-circuit protection'
     ],
     applicationAreas: [
       'CNC & textile machines',
@@ -120,7 +121,7 @@ export const products = [
    
     id: 'tss1',
     name: 'Three Phase Servo Stabilizer',
-    price: "20000", // You can update this later
+    price: "30000 (Starts from)", // You can update this later
     image: '/assets/images/ServoVoltageStabilizer/30KVAStabilizerFront.jpeg',
     category: 'Servo Voltage Stabilizer',
     slug: 'three-phase-servo-stabilizer-30KVA',
@@ -138,7 +139,7 @@ export const products = [
     ],
     features: [
       'Maintains 400 V ±1% output from 340–480 V input, other range available on request',
-      'Fast correction rate: 35 V/sec',
+      'Fast correction rate: upto 70 V/sec',
       'High efficiency (Upto 98%)',
       'Supports 120% overload for 60 sec',
       'No harmonic distortion',
@@ -199,7 +200,7 @@ export const products = [
    {
     id: 'ocs1',
     name: 'Oil-Cooled Three Phase Servo Stabilizer',
-    price: "20000", // Add price when available
+    price: "50000 (Starts from)", // Add price when available
     image: '/assets/images/ServoVoltageStabilizer/OilCooled.png',
     category: 'Servo Voltage Stabilizer',
     slug: 'three-phase-servo-stabilizer-oil-cooled',
@@ -280,7 +281,7 @@ export const products = [
   
     id: 'j1',
     name: 'Jindal Automatic Voltage Controller (AVC)',
-    price: "25000", // Add when available
+    price: "Upon Request", // Add when available
     image: '/assets/images/ServoVoltageStabilizer/JindalAVC.png',
     category: 'Servo Voltage Stabilizer',
     slug: 'jindal-avc',
@@ -352,7 +353,7 @@ export const products = [
 {
   "id": "hfuls1",
   "name": "High Frequency Online UPS",
-  "price": "",
+  "price": " Upon Request",
   "image": "/assets/images/ups/HighFreqOnlineUps.png",
   "category": "Online UPS Systems",
   "slug": "high-frequency-online-ups",
@@ -443,7 +444,7 @@ export const products = [
 {
   "id": "ups1",
   "name": "Line Interactive UPS",
-  "price": "", 
+  "price": " Upon Request", 
   "image": "/assets/images/ups/lineInteractive.jpeg",
   "category": "UPS Systems",
   "slug": "line-interactive-ups",
@@ -533,7 +534,7 @@ export const products = [
 {
   "id": "onlineups1",
   "name": "True Online UPS",
-  "price": "",
+  "price": " Upon Request",
   "image": "/assets/images/UPS/OnlineUPS.png",
   "category": "Online UPS Systems",
   "slug": "online-ups",
@@ -581,7 +582,7 @@ export const products = [
     "Optional Output": "Isolated output available"
   },
   "warranty": {
-    "period": "3‑Year",
+    "period": "‑Year",
     "type": "Comprehensive",
     "coverage": "Includes power electronics, dsp board, and IGBT modules; battery excluded"
   },
@@ -664,7 +665,7 @@ export const products = [
       'Isolation': 'High, with electrostatic shielding'
     },
     warranty: {
-      period: '3-Year',
+      period: '1-Year',
       type: 'Comprehensive',
       coverage: 'Includes all electronic components and workmanship defects. Extended warranty available.'
     },
@@ -692,12 +693,13 @@ export const products = [
       }
     ]
   },
+//-----------------------------------------------------Digital Voltage Stabilizers-----------------------------------------------------
     //AutoCut Stabilizer
   {
     //AutoCut Stabilizer
   "id": "autocut1",
   "name": "Autocut Stabilizer",
-  "price": "10000", // Add price when availabl
+  "price": " 5000 (Starts from)", // Add price when availabl
   "image": "/assets/images/DigitalVoltageStabilizer/AutoCut.jpeg",
   "category": "Digital Voltage Stabilizer",
   "slug": "autocut-digital-voltage-stabilizer",
@@ -715,7 +717,7 @@ export const products = [
       "alt": "Autocut Stabilizer – Front View"
     },
     {
-      "url": "/assets/images/DigitalVoltageStabilizer/AutoCut.jpeg",
+      "url": "/assets/images/DigitalVoltageStabilizer/AutoCutFront.jpeg",
       "alt": "Autocut Stabilizer – Front View"
     }
   ],
@@ -739,14 +741,14 @@ export const products = [
   "specifications": {
     "Input Voltage": "100–300 V (customizable)",
     "Output Voltage": "Settable – typically 230 V",
-    "Capacity Range": "2 kVA to 10 kVA (higher on demand)",
+    "Capacity Range": "2 kVA to 15 kVA (higher on demand)",
     "Efficiency": ">99%",
     "Harmonic Distortion": "Nil (sine‑wave)",
     "Overload Capacity": "120% for 60 seconds",
-    "Protection": "Auto cut‑off + auto reset",
-    "Pre‑Buzzer Alarm": "≈5 V before cut‑off",
-    "Control": "Microcontroller‑based digital IC",
-    "Design Principle": "Buck‑boost with isolated control circuitry"
+    "Protection": "Auto cut‑off and  auto reset",
+    "Pre‑Buzzer Alarm": "-5 V before cut‑off",
+    "Control": "Microcontroller‑based digitally controlled",
+    "Design Principle": "Manual with on-load tap change switch",
   },
   "warranty": {
     "period": "",
@@ -759,12 +761,12 @@ export const products = [
 {
   "id": "dvs1",
   "name": "Digital Voltage Stabilizer",
-  "price": "",
+  "price": " 3000 (Starts from)", // Add price when available
   "image": "/assets/images/DigitalVoltageStabilizer/DigitalStabilizerFront.jpeg",
   "category": "Digital Voltage Stabilizer",
   "slug": "digital-voltage-stabilizer",
-  "description": "Solid‑state digital power conditioner with zero‑crossing technology, compact design, high efficiency and power‑saving features.",
-  "fullDescription": "The PRO‑TEK Advanced Digital Voltage Stabilizer series introduces a sleek, solid‑state design using digital power conditioners with zero‑crossing technology. Based on thyristors/SSR, these stabilizers are lightweight, compact, and energy efficient, making them suitable for all types of electrical loads. Features include complete surge suppression, power‑factor improvement circuitry, isolated control, buck‑boost principle, and microcontroller‑based programmable sensing, ensuring reliable performance and low harmonic distortion.",
+  "description": "Compact, lightweight stabilizer with high efficiency, zero-crossing correction, and nil harmonic distortion.",
+  "fullDescription": "The PRO-TEK Digital Voltage Stabilizer combines solid-state design with advanced microcontroller-based sensing to deliver precise voltage correction at the zero crossing of the sine wave. It is compact, lightweight, and achieves high efficiency with nil harmonic distortion. Equipped with complete surge suppression and isolated control, it ensures reliable performance for critical industrial, commercial, and residential applications.",
   "sku": "DVS-PTK",
   "rating": null,
   "reviewCount": null,
@@ -782,14 +784,12 @@ export const products = [
     }
   ],
   "features": [
-    "Solid‑state thyristors/SSR with zero‑crossing switching",
+    "Compact and lightweight solid-state design",
+    "High efficiency with nil harmonic distortion",
+    "Microcontroller-based digital sensing and correction at Zero-crossing of sine wave to power circuit",
     "Complete surge suppression",
-    "Power‑factor improvement circuitry",
-    "Isolated control circuits",
-    "Compact and lightweight",
-    "High efficiency with power saving",
-    "Microcontroller‑based programmable sensing",
-    "Nil harmonic distortion – sine‑wave output"
+    "Electronically Isolated control circuits",
+    "Fast correction speed"
   ],
   "applicationAreas": [
     "Industrial control systems",
@@ -804,7 +804,7 @@ export const products = [
     "Response Time": "½ Cycle (10 ms)",
     "Frequency": "47 to 53 Hz",
     "Efficiency": "Greater than 98%",
-    "Capacity": "2 kva - 10 KVA",
+    "Capacity": "1 KVA - 10 KVA",
     "Over Load Capacity": "130% for 60 Sec",
     "Harmonic Distortion": "Nil",
     "Protection": "Soft Turn On Delay with Low Cut & High Cut, Complete Surge Suppression, High/Low Cut Output Short Circuit by MCB",
@@ -816,7 +816,93 @@ export const products = [
     "coverage": ""
   },
   "reviews": []
+},
+//Smart Digital Voltage Stabilizer
+{
+  "id": "dvs1",
+  "name": "Smart Digital Voltage Stabilizer",
+  "price": "8000 (Starts from)",
+  "image": "/assets/images/DigitalVoltageStabilizer/DigitalStabilizerFront.jpeg",
+  "category": "Digital Voltage Stabilizer",
+  "slug": "smart-digital-voltage-stabilizer",
+  "description": "Compact, lightweight stabilizer with high efficiency, zero-crossing correction, nil harmonic distortion, and embedded technology for flexible parameter setting with password protection.",
+  "fullDescription": "The PRO-TEK Smart Digital Voltage Stabilizer combines solid-state design with advanced microcontroller-based sensing to deliver precise voltage correction at the zero crossing of the sine wave. It is compact, lightweight, and achieves high efficiency with nil harmonic distortion. Equipped with complete surge suppression, isolated control, and embedded technology that allows users to set parameters such as Output Voltage, Variation Band, Low Cut Voltage, High Cut Voltage, Voltage Calibration, and Turn-On/Turn-Off Time with password protection. This ensures full flexibility and security for critical industrial, commercial, and residential applications.",
+  "sku": "SDVS-PTK",
+  "rating": 4.6,
+  "reviewCount": 10,
+  "isNew": false,
+  "isBestseller": false,
+  "isOnSale": false,
+  "images": [
+    {
+      "url": "/assets/images/DigitalVoltageStabilizer/SmartStabilizer.jpeg",
+      "alt": "Smart Digital Voltage Stabilizer – Front View"
+    },
+    {
+      "url": "/assets/images/DigitalVoltageStabilizer/DigitalStabilizerBack.jpeg",
+      "alt": "Smart Digital Voltage Stabilizer – Back View"
+    }
+  ],
+  "features": [
+    "Compact and lightweight solid-state design",
+    "High efficiency with nil harmonic distortion",
+    "Microcontroller-based digital sensing and correction at Zero-crossing of sine wave to power circuit",
+    "Complete surge suppression",
+    "Electronically Isolated control circuits",
+    "Fast voltage correction speed",
+    "Embedded technology with password protection for flexible parameter configuration",
+    "Adjustable parameters: Output Voltage, Variation Band, Low Cut Voltage, High Cut Voltage, Voltage Calibration, Turn-On/Turn-Off Time"
+  ],
+  "applicationAreas": [
+    "Industrial control systems",
+    "Telecom and data centers",
+    "Laboratory & precision instruments",
+    "Commercial and residential critical loads"
+  ],
+  "specifications": {
+    "Input": "180 V to 280 V",
+    "Output": "225 V ± 3% (Typical)",
+    "Correction Rate": "500 V/Sec",
+    "Response Time": "½ Cycle (10 ms)",
+    "Frequency": "47 to 53 Hz",
+    "Efficiency": "Greater than 98%",
+    "Capacity": "2 KVA - 10 KVA",
+    "Over Load Capacity": "130% for 60 Sec",
+    "Harmonic Distortion": "Nil",
+    "Protection": "Soft Turn On Delay with Low Cut & High Cut, Complete Surge Suppression, High/Low Cut Output Short Circuit by MCB",
+    "Technology": "Microcontroller-based programmable digital IC sensing output voltage, giving command to isolated power circuit at zero point of sine wave",
+    "Configurable Parameters": "Output Voltage, Variation Band, Low Cut Voltage, High Cut Voltage, Voltage Calibration, Turn-On Time, Turn-Off Time (with password protection)"
+  },
+  "warranty": {
+    "period": "",
+    "type": "",
+    "coverage": ""
+  },
+  "reviews": [
+    {
+      "author": "Vinod Jain",
+      "date": "2024-06-12",
+      "rating": 5,
+      "comment": "Our lab instruments run flawlessly even when input voltage drops. Highly reliable device.",
+      "verifiedPurchase": true
+    },
+    {
+      "author": "Sanjay Sharda",
+      "date": "2025-02-20",
+      "rating": 4.5,
+      "comment": "Very smooth sine-wave output; reduced trips in our UPS backup system.",
+      "verifiedPurchase": true
+    },
+    {
+      "author": "Sunil Garg",
+      "date": "2021-10-05",
+      "rating": 5,
+      "comment": "Efficient unit with fast regulation. No moving parts is a plus!",
+      "verifiedPurchase": true
+    }
+  ]
 }
+
 ,
 
 //--------------------------------------Digital Step Stabilizer--------------------------------------
@@ -824,12 +910,12 @@ export const products = [
 {
   "id": "wmstb2",
   "name": "Wall Mount Regular Stabilizer",
-  "price": "",
+  "price": " 2500 (Starts from)", // Add price when available
   "image": "/assets/images/DigitalStepStabilizer/WallMountRegular.jpeg",
   "category": "Digital Voltage Stabilizer",
   "slug": "wall-mount-regular",
-  "description": "Compact wall-mounted digital stabilizer with auto cut-off and surge protection for essential appliances.",
-  "fullDescription": "Pro_Tek’s Wall Mount Regular Stabilizer is a reliable and affordable solution for safeguarding appliances from voltage fluctuations. Built for vertical wall installation, this stabilizer ensures automatic voltage correction using solid-state circuitry. With built-in protection against over-voltage, under-voltage, short circuit, and spikes, it is ideal for protecting TVs, refrigerators, and basic electronics in residential and commercial environments. The unit is lightweight, easy to mount, and operates silently without any moving parts.",
+  "description": "Compact wall-mounted digital stabilizer with auto low/high cut-off with soft start and surge protection for essential appliances.",
+  "fullDescription": "Pro_Tek’s Wall Mount Regular Stabilizer is a reliable and affordable solution for safeguarding appliances from voltage fluctuations. Built for vertical wall installation, this stabilizer ensures automatic voltage correction using solid-state circuitry. With built-in protection against over-voltage, under-voltage, short circuit, and spikes, it is ideal for protecting Air conditioners, refrigerators, and basic electronics in residential and commercial environments. The unit is lightweight, easy to mount, and operates silently",
   "sku": "WMR-STB-PTK",
   "rating": 4.4,
   "reviewCount": 36,
@@ -848,7 +934,7 @@ export const products = [
     "Auto cut-off on under/over-voltage conditions",
     "Surge and spike suppression circuit",
     "Silent operation with relay switching of zero crossing of sine wave",
-    "Designed for lightweight residential electronics"
+    "Designed for residential electrical appliances",
   ],
   "applicationAreas": [
     "Airconditions and Domestic Load",
@@ -902,12 +988,12 @@ export const products = [
 {
   "id": "wmstb1",
   "name": "Wall Mount Premium Stabilizer",
-  "price": "",
+  "price": " 1500 (Starts from)", // Add price when available
   "image": "/assets/images/DigitalStepStabilizer/WallMountPremium.png",
   "category": "Digital Voltage Stabilizer",
   "slug": "wall-mount-premium",
-  "description": "Premium wall-mount digital stabilizer with LCD display, auto-reset, and precise voltage regulation.",
-  "fullDescription": "Pro_Tek's Wall Mount Premium Stabilizer is a digitally controlled voltage regulator designed for home and office appliances. Engineered for wall-mounted deployment, it combines advanced voltage sensing, front-panel LCD for real-time voltage feedback, and seamless auto-reset after voltage normalization. The stabilizer offers wide input range compatibility and built-in protections against high/low voltage, overload, and surges. Ideal for refrigerators, air conditioners, LED TVs, and sensitive equipment that demand consistent voltage.",
+  "description": "Premium wall-mount digital stabilizer with LED display, auto-reset, and precise voltage regulation.",
+  "fullDescription": "Pro_Tek's Wall Mount Premium Stabilizer is a digitally controlled voltage regulator designed for home and office appliances. Engineered for wall-mounted deployment, it combines advanced voltage sensing, front-panel LED for real-time voltage feedback, and seamless auto-reset after voltage normalization. The stabilizer offers wide input range compatibility and built-in protections against high/low voltage, overload, and surges. Ideal for refrigerators, air conditioners, LED TVs, and sensitive equipment that demand consistent voltage.",
   "sku": "WMP-STB-PTK",
   "rating": 4.6,
   "reviewCount": 40,
@@ -921,6 +1007,7 @@ export const products = [
     }
   ],
   "features": [
+    "Plastic ABS body with elegant finish",
     "Wall-mount design for space-saving installation",
     "Advanced microcontroller-based voltage regulation",
     "LED panel for input/output voltage and system status",
@@ -943,7 +1030,7 @@ export const products = [
     "Input Voltage Range": "140V-290V, 170V-290V",
     "Output Voltage": "230 V (Typical)",
     "Display": "Front-panel LED with voltage indicators",
-    "Protection": "High/low voltage cutoff, surge, overload",
+    "Protection": "High/low voltage cutoff, surge, overload, short circuit (By fuse)",
     "Form Factor": "Wall-mount, compact body",
     "Cooling": "Natural air-cooled (fanless)",
     "Reset Type": "Automatic reset after voltage normalization"
@@ -983,16 +1070,16 @@ export const products = [
 {
   "id": "bcharg1",
   "name": "SMPS Battery Charger",
-  "price": "",
+  "price": " Upon Request",
   "image":'/assets/images/BatteryCharger/BatteryCharger.png',
   "category": "Battery Charger",
   "slug": "smps-battery-charger",
   "description": "Compact PWM-based SMPS battery charger with auto cut‑off/float charge and high-efficiency EMI/RFI filtering.",
   "fullDescription": "Pro_Tek’s SMPS Battery Charger delivers reliable DC power using PWM-controlled switch mode technology and onboard EMI/RFI filtering. Built with industrial-grade components, it provides precise charging via automatic cut-off or float modes and soft-start current limiting. With adjustable output voltages in CCCV charging mode, over 75% efficiency under full load, and open protections for short-circuit, over-voltage, temperature, and optional reverse-battery and relay contacts, this charger is ideal for telecom, industrial, and standby battery systems.",
   "sku": "SMPS-BC-PTK",
-  "rating": null,
-  "reviewCount": null,
-  "isNew": false,
+  "rating": 4.3,
+  "reviewCount": 100,
+  "isNew": true,
   "isBestseller": false,
   "isOnSale": false,
   "images": [
@@ -1044,17 +1131,17 @@ export const products = [
 //-------------------------------Converter----------------------------------
 
 {
-  "id": "srvctrl1",
+  "id": "conv110v1",
   "name": "110 Volts Converter",
-  "price": "2000",
+  "price": " 2000 (Starts from)", // Add price when available
   "image": "/assets/images/Converter/110VoltsConverter.png",
   "category": "Converter",
   "slug": "110-volts-converter",
-  "description": "Microcontroller-based controller for servo voltage stabilizers, offering plug-and-play installation, precision regulation, and smart protection.",
-  "fullDescription": "Pro_Tek’s 110 Volts Converter is an all-in-one microcontroller module designed for high-precision voltage regulation in servo stabilizers. It supports effortless plug-and-play setup with just 5–7 connections, minimal external wiring via a built-in sensing transformer, and a front-panel Auto/Manual switch. The controller delivers intelligent voltage regulation with password-protected settings, adjustable correction speed, and highly accurate voltage displays. Built-in protections include high/low cut-off, adjustable turn-on/off delays, and ±1% regulation tolerance—ideal for demanding industrial environments.",
-  "sku": "SRVCTRL-PTK",
-  "rating": null,
-  "reviewCount": null,
+  "description": "Compact, efficient converter for running USA appliances in India, with plug-and-play setup, universal output plug, and overload protection options.",
+  "fullDescription": "The PRO-TEK 110 Volts Converter is designed to safely and efficiently power USA appliances in India. It offers simple plug-and-play installation with no complex wiring required. The universal plug at the output allows direct connection to 110V appliances such as kitchen devices, electronics, and small machinery. Built with a high-efficiency toroidal transformer, it ensures minimal power loss and a compact form factor. Optional MCB protection safeguards against overloads, making it a reliable choice for both residential and light commercial applications.",
+  "sku": "CONV110V-PTK",
+  "rating": 4.3,
+  "reviewCount": 12,
   "isNew": false,
   "isBestseller": false,
   "isOnSale": false,
@@ -1065,42 +1152,61 @@ export const products = [
     },
     {
       "url": "/assets/images/Converter/110VoltsConverterBack.png",
-      "alt": "110 Volts Converter – Front View"
+      "alt": "110 Volts Converter – Back View"
     }
   ],
   "features": [
-    "Plug & Play design with 5–7 connections",
-    "Minimal external wiring via built-in sensing transformer",
-    "Password-protected voltage regulation settings",
-    "Front-panel Auto/Manual switch",
-    "Adjustable correction speed for motor/variac size",
-    "Calibratable high-accuracy input & output voltage display",
-    "High and low voltage cut-off protection",
-    "Output set voltage with ±1% regulation tolerance",
-    "Adjustable turn-on and turn-off delays"
+    "Plug & Play installation",
+    "Universal plug at output to connect directly to USA appliances",
+    "High efficiency with low power loss",
+    "Toroidal transformer for compact size",
+    "MCB optional for overload protection"
   ],
   "applicationAreas": [
-    "Servo voltage stabilizers",
-    "CNC machines",
-    "Textile machinery",
-    "Printing machines"
+    "Running USA (110V) appliances in India",
+    "Home and office electronics",
+    "Small kitchen appliances",
+    "Light commercial equipment"
   ],
   "specifications": {
-    "Connections": "5–7 plug‑and‑play terminals",
-    "Voltage Regulation": "±1% tolerance with adjustable set point",
-    "Correction Speed": "User-adjustable for motor/variac matching",
-    "Display Accuracy": "Calibratable input/output voltage meter",
-    "Protection": "High/low cut‑off, timing delays on turn‑on/off",
-    "Control Modes": "Manual and Auto via front-panel switch",
-    "Settings Security": "Password protected"
+    "Input Voltage": "230V AC (typical)",
+    "Output Voltage": "110V AC (typical)",
+    "Capacity": "Up to rated wattage based on model",
+    "Transformer Type": "High-efficiency toroidal transformer",
+    "Protection": "Overload protection via optional MCB",
+    "Cooling": "Natural air-cooled",
+    "Connections": "Plug-in type, no wiring required"
   },
   "warranty": {
-    "period": "1‑Year",
+    "period": "1-Year",
     "type": "Standard Warranty",
-    "coverage": "Covers controller board and microcontroller; excludes wiring and installation errors."
+    "coverage": "Covers manufacturing defects; excludes damage from overload or improper use."
   },
-  "reviews": []
+  "reviews": [
+    {
+      "author": "Amit Sharma",
+      "date": "2024-12-15",
+      "rating": 5,
+      "comment": "Works flawlessly with my US coffee maker in India. No overheating, compact design, and easy to use.",
+      "verifiedPurchase": true
+    },
+    {
+      "author": "Priya Menon",
+      "date": "2024-11-02",
+      "rating": 4.5,
+      "comment": "Excellent build quality and efficiency. My imported sewing machine runs smoothly without any noise or fluctuation.",
+      "verifiedPurchase": true
+    },
+    {
+      "author": "Rohit Verma",
+      "date": "2024-10-18",
+      "rating": 5,
+      "comment": "Very easy plug-and-play setup. The universal socket is a great feature for connecting different USA gadgets.",
+      "verifiedPurchase": true
+    }
+  ]
 },
+
 
 
 
@@ -1114,7 +1220,7 @@ export const products = [
   "category": "Digital Controller",
   "slug": "servo-stabilizer-controller",
   "description": "Microcontroller-based controller for servo voltage stabilizers, offering plug-and-play installation, precision regulation, and smart protection.",
-  "fullDescription": "Pro_Tek’s Servo Stabilizer Controller is an all-in-one microcontroller module designed for high-precision voltage regulation in servo stabilizers. It supports effortless plug-and-play setup with just 5–7 connections, minimal external wiring via a built-in sensing transformer, and a front-panel Auto/Manual switch. The controller delivers intelligent voltage regulation with password-protected settings, adjustable correction speed, and highly accurate voltage displays. Built-in protections include high/low cut-off, adjustable turn-on/off delays, and ±1% regulation tolerance—ideal for demanding industrial environments.",
+  "fullDescription": "Pro_Tek’s Servo Stabilizer Controller is an all-in-one microcontroller module designed for high-precision voltage regulation in servo stabilizers. It supports effortless plug-and-play setup with just 5–7 connections, minimal external wiring via a built-in sensing transformer, and a front-panel Auto/Manual switch. The controller delivers intelligent voltage regulation with password-protected settings like high voltage cutoff, low voltage cutoff, output voltage, turn on / turn off time , adjustable correction speed, and highly accurate voltage displays. Built-in protections include high/low cut-off and ±1% regulation tolerance—ideal for demanding industrial environments.",
   "sku": "SRVCTRL-PTK",
   "rating": null,
   "reviewCount": null,
@@ -1128,7 +1234,7 @@ export const products = [
     }
   ],
   "features": [
-    "Plug & Play design with 5–7 connections",
+    "Plug & Play design with 5–7 wire connections",
     "Minimal external wiring via built-in sensing transformer",
     "Password-protected voltage regulation settings",
     "Front-panel Auto/Manual switch",
@@ -1164,12 +1270,12 @@ export const products = [
 {
   "id": "stepctrl1",
   "name": "Step Stabilizer Controller",
-  "price": "2000",
+  "price": "750",
   "image": "/assets/images/Controller/StepStabilizerController.png",
   "category": "Digital Controller",
   "slug": "step-stabilizer-controller",
   "description": "Microcontroller-based controller for step voltage stabilizers featuring continuous voltage monitoring and zero-cross relay switching.",
-  "fullDescription": "Pro_Tek’s Step Stabilizer Controller provides precise regulation for step-type voltage stabilizers with minimal wiring and plug-and-play installation. It continuously monitors input/output voltages, switches relays at zero-crossing points to reduce noise and wear, and supports standard or customized voltage ranges (100–290 V). Designed to work seamlessly with 12 V or 24 V relay modules, it includes automatic cut-off, adjustable delays, and is ideal for stabilizers in industrial settings like CNC, textile, and printing machinery.",
+  "fullDescription": "Pro_Tek’s Step Stabilizer Controller provides precise regulation for step-type voltage stabilizers with minimal wiring and plug-and-play installation. It continuously monitors input/output voltages, switches relays at zero-crossing points to reduce noise and wear, and supports standard or customized voltage ranges (100–290 V). Designed to work seamlessly with 12 V or 24 V relay modules, it includes automatic cut-off, delays, and is ideal for stabilizers in industrial settings like domestic stabilizers",
   "sku": "STEPCTRL-PTK",
   "rating": null,
   "reviewCount": null,
@@ -1188,7 +1294,7 @@ export const products = [
     "Supports voltage range settings: 100‑290 V, 140‑290 V, 180‑280 V",
     "Plug‑and‑play design with 3‑pin main and 3‑5 wire control connections",
     "Compatible with 12 V or 24 V relay modules",
-    "Standard high/low voltage cut‑off with adjustable turn‑on delay",
+    "Standard high/low voltage cut‑off with turn‑on delay",
     "Factory and bulk‑customizable versions available",
     "Minimal external wiring via relay card control inputs"
   ],
@@ -1227,8 +1333,8 @@ export const products = [
   "description": "High-performance transformer providing full electrical isolation, noise suppression, and safety for sensitive equipment.",
   "fullDescription": "Pro_Tek designs Isolation, Ultra-Isolation, and K‑Rated transformers tailored to industrial and critical applications. These transformers decouple primary and secondary circuits, block DC transmission, suppress ground-loop interference, and attenuate both common- and transverse-mode noise via electrostatic Faraday shielding. Ultra Isolation models offer enhanced noise rejection for telecom and medical setups, while K‑Rated types are engineered to handle nonlinear harmonics per ANSI/UL standards. Constructed with CRGO laminations and designed for high overload tolerance, these transformers deliver stable voltage, minimal leakage, and reliable performance.",
   "sku": "ISO-PTK",
-  "rating": null,
-  "reviewCount": null,
+  "rating": 4.3,
+  "reviewCount": 15,
   "isNew": false,
   "isBestseller": false,
   "isOnSale": false,
@@ -1250,7 +1356,7 @@ export const products = [
     "Ultra Isolation models for telecom, medical, wireless systems",
     "K‑Rated versions designed for harmonic-heavy loads (K‑1 to K‑20)",
     "High-grade CRGO laminations to prevent core saturation",
-    "Handles up to 25% overload without saturation",
+    "Handles up to 25% overload for 10 minutes without saturation",
     "Low leakage, suitable for sensitive equipment"
   ],
   "applicationAreas": [
@@ -1271,7 +1377,7 @@ export const products = [
     "Cooling": "Natural air or oil cooling for high KVAs"
   },
   "warranty": {
-    "period": "3‑Year",
+    "period": "1‑Year",
     "type": "Comprehensive Warranty",
     "coverage": "Covers core, windings, and shielding; excludes physical damage and misuse."
   },

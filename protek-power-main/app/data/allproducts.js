@@ -39,7 +39,7 @@ export const products = [
     {
     id: 's5',
     name: 'Jindal AVC',
-    price: 10000,
+    price: "Upon Request",
     image: '/assets/images/ServoVoltageStabilizer/JindalAVC.png',
     category: 'Servo Voltage Stabilizer',
     slug: 'jindal-avc',
@@ -52,7 +52,7 @@ export const products = [
   {
     id: 'u1',
     name: 'Line Interactive UPS',
-    price: 0,
+    price: " Upon Request",
     image: '/assets/images/ups/lineInteractive.jpeg',
     category: 'UPS Systems',
     slug: 'line-interactive-ups',
@@ -61,7 +61,7 @@ export const products = [
   {
     id: 'u2',
     name: 'ON LINE UPS',
-    price: 0,
+    price: " Upon Request",
     image: '/assets/images/ups/OnlineUPS.png',
     category: 'UPS Systems',
     slug: 'online-ups',
@@ -70,7 +70,7 @@ export const products = [
   {
     id: 'u3',
     name: 'High‑Frequency Online UPS',
-    price: 0,
+    price: " Upon Request",
     image: '/assets/images/ups/HighFreqOnlineUps.png',
     category: 'UPS Systems',
     slug: 'high-frequency-online-ups',
@@ -83,7 +83,7 @@ export const products = [
    {
     id: 'd1',
     name: 'Digital Voltage Stabilizer',
-    price: 0,
+    price: "3000 (Starts from)",
     image: '/assets/images/DigitalVoltageStabilizer/DigitalStabilizerFront.jpeg',
     category: 'Digital Voltage Stabilizer',
     slug: 'digital-voltage-stabilizer',
@@ -92,7 +92,7 @@ export const products = [
  {
     id: 'd2',
     name: 'Autocut Digital Voltage Stabilizer',
-    price: 0,
+    price: "5000 (Starts from)",
     image: '/assets/images/DigitalVoltageStabilizer/AutoCut.jpeg',
     category: 'Digital Voltage Stabilizer',
     slug: 'autocut-digital-voltage-stabilizer',
@@ -100,11 +100,11 @@ export const products = [
   },
   {
     id: 'd3',
-    name: 'Intelligent Digital Voltage Stabilizer',
-    price: 0,
-    image: '/assets/images/DigitalVoltageStabilizer/DigitalStabilizerFront.jpeg',
+    name: 'Smart Digital Voltage Stabilizer',
+    price: "8000 (Starts from)",
+    image: '/assets/images/DigitalVoltageStabilizer/SmartStabilizer.jpeg',
     category: 'Digital Voltage Stabilizer',
-    slug: 'intelligent-digital-voltage-stabilizer',
+    slug: 'smart-digital-voltage-stabilizer',
     description: 'Embedded micro‑controller circuits with advanced features.'
   },
 

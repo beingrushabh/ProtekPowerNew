@@ -5,7 +5,7 @@ import Footer from "../components/organisms/Footer";
 import TopProductCard from "../components/atoms/TopProductCard";
 import { products } from "../data/allproducts";
 import { productCategories } from "../data/productCategories";
-
+import WhatsAppFloat from "../components/molecules/Whatsapp";
 export function meta() {
     return [
         { title: "Products - Protek Power" },
@@ -131,6 +131,12 @@ export default function Products() {
                     </div>
                 )}
             </main>
+            <WhatsAppFloat
+                    phone="919426067762"   // change to Protek's number
+                    defaultMessage="Hi Protek, I’m interested in your stabilizers."
+                    enableChatBox={true}   // false = direct WhatsApp open
+                    position="bottom-right"
+                  />
             <Footer />
         </>
     );

@@ -8,7 +8,7 @@ import WarrantyInfo from '../components/molecules/WarrantyInfo';
 import ProductReviews from '../components/organisms/ProductReview';
 import RelatedProducts from '../components/organisms/RelatedProducts';
 import { products } from '../data/products';
-
+import WhatsAppFloat from '../components/molecules/Whatsapp';
 export async function loader({ params }) {
     const { slug } = params;
 
@@ -152,7 +152,14 @@ export default function ProductDetail() {
                     <RelatedProducts products={relatedProducts} />
                 )}
             </div>
+        <WhatsAppFloat
+                phone="919426067762"   // change to Protek's number
+                defaultMessage="Hi Protek, I’m interested in your stabilizers."
+                enableChatBox={true}   // false = direct WhatsApp open
+                position="bottom-right"
+              />
         </Layout>
+        
     );
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../components/organisms/Header";
 import Footer from "../components/organisms/Footer";
-
+import WhatsAppFloat from "../components/molecules/Whatsapp";
 export function meta() {
     return [
         { title: "About Us - Protek Power" },
@@ -212,9 +212,16 @@ export default function About() {
                     </div>
                 </section>
             </main>
-
+<WhatsAppFloat
+        phone="919426067762"   // change to Protek's number
+        defaultMessage="Hi Protek, I’m interested in your stabilizers."
+        enableChatBox={true}   // false = direct WhatsApp open
+        position="bottom-right"
+      />
             <Footer />
+        
         </>
+
     );
 }
 

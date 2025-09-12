@@ -7,8 +7,9 @@ export default function NavBar() {
     return (
         <nav style={styles.nav}>
             <NavLink to="/">Home</NavLink>
-            <NavDropdown title="Products" items={productCategories} />
             <NavLink to="/about">About Us</NavLink>
+            <NavDropdown title="Products" items={productCategories} />
+            <NavLink to="/blog">Blog</NavLink>
             {/* <NavLink to="/contact">Contact</NavLink> */}
         </nav>
     );

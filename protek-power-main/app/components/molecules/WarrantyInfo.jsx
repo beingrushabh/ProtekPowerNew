@@ -16,9 +16,8 @@ export default function WarrantyInfo({ warranty }) {
                 </div>
 
                 <ul style={styles.warrantyCoverage}>
-                    <li>Technical support via phone and email</li>
-                    <li>Free replacement for manufacturing defects</li>
-                    <li>Nationwide service center network</li>
+                    <li>Technical support via phone, email and whatsapp</li>
+                    <li>Defected parts will be replaced</li>
                 </ul>
 
                 <div style={styles.warrantyActions}>

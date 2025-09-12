@@ -23,8 +23,8 @@ export default function SupportSection() {
                             <ContactInfo
                                 icon="📞"
                                 title="Phone"
-                                value="+91 9426067762"
-                                link="tel:+919876543210"
+                                value=" +919824035667, +91 9426067762"
+                                link="tel:+919824035667"
                             />
                             <ContactInfo
                                 icon="📍"

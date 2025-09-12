@@ -111,7 +111,7 @@ const styles = {
     bannerContainer: {
         position: 'relative',
         width: '100%',
-        height: '400px',          // Reduced height (was calc height or 700px)
+        height: '500px',          // Reduced height (was calc height or 700px)
         overflow: 'hidden',
         boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
     },
