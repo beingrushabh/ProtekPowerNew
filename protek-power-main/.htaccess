@@ -1,0 +1,24 @@
+# Force all routes to index.html for a Vite/React SPA
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  # Allow direct access to existing files and folders
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Otherwise, serve index.html
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# Cache static assets (adjust as needed)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType image/avif "access plus 30 days"
+  ExpiresByType image/webp "access plus 30 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+</IfModule>

@@ -1,0 +1,9 @@
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  base: "./", // make asset paths relative so it works in subfolders
+  build: {
+    outDir: "dist",           // default
+    emptyOutDir: true,        // clean before build
+  },
+});
